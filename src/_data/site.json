@@ -1,0 +1,17 @@
+{
+  "baseURL": "https://helloworldfilm.com",
+  "author": "Hello World Film, LLC",
+  "description": "",
+  "title": "Hello World Films",
+  "language": "en",
+  "social": [
+    {
+      "title": "Twitter",
+      "url": "https://twitter.com/helloworldfilm"
+    },
+    {
+      "title": "IMDB",
+      "url": "https://imdb.com/title/tt0120338"
+    }
+  ]
+}
