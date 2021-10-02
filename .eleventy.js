@@ -1,10 +1,16 @@
 const htmlmin = require("html-minifier");
 const markdownIt = require('markdown-it');
 const pluginRss = require("@11ty/eleventy-plugin-rss");
+const filters = require("./utils/filters.js");
 
 module.exports = function (eleventyConfig) {
   // PLUGINS
   eleventyConfig.addPlugin(pluginRss);
+
+  // Filters
+  Object.keys(filters).forEach((key) => {
+    eleventyConfig.addFilter(key, filters[key]);
+  });
 
   // shortcode to render markdown from string => {{ STRING | markdown | safe }}
   eleventyConfig.addFilter('markdown', function(value) {
