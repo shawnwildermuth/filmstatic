@@ -256,7 +256,7 @@ $('.team-active').slick({
 	arrows: true,
 	prevArrow: "<i class='common-arrow common-arrow--prev top--arrow top--arrow--two top--arrow--prev fal fa-long-arrow-left'></i>",
 	nextArrow: "<i class='common-arrow common-arrow--next top--arrow top--arrow--two top--arrow--next fal fa-long-arrow-right'></i>",
-	slidesToShow: 4,
+	slidesToShow: 3,
 	slidesToScroll: 1,
 	responsive: [{
 			breakpoint: 1024,

@@ -32,7 +32,10 @@ module.exports = function (eleventyConfig) {
   )
 
   // STATIC FILES
-  eleventyConfig.addPassthroughCopy({ './src/static/': '/' });
+  const staticFiles = [ "css", "img", "lib", "fonts"];
+  for (let i = 0; i < staticFiles.length; i++) {
+    eleventyConfig.addPassthroughCopy({ [`src/static/${staticFiles[i]}`]: staticFiles[i] });
+  }
 
   // TRANSFORM -- Minify HTML Output
   eleventyConfig.addTransform("htmlmin", function(content, outputPath) {

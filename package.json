@@ -6,7 +6,7 @@
     "clean": "rimraf _site",
     "start": "cross-env NODE_ENV=development npm-run-all -l clean --parallel start:* ",
     "start:eleventy": "eleventy --serve",
-    "start:tailwind": "nodemon -e css,json -x npm run build:tailwind -w ./src/_includes/css/_page.css -w ./tailwind.config.js",
+    "start:tailwind": "tailwind build -i ./src/_includes/css/_page.css -o ./_site/css/site.min.css -w ./src/_includes/css/_page.css -w ./tailwind.config.js --jit",
     "start:gulp": "nodemon -e js -x npm run build:gulp -w ./gulpfile.js",
     "build": "cross-env NODE_ENV=production npm-run-all -l clean build:*",
     "build:eleventy": "eleventy",

@@ -3,3 +3,22 @@
 @tailwind components;
 
 @tailwind utilities;
+
+
+.slider--videos span a i {
+  padding-left: 5px;
+}
+
+.project--content .right-button {
+  position: absolute;
+  height: 55px;
+  width: 55px;
+  font-size: 20px;
+  background: #ef6330;
+  border: 1px solid transparent;
+  cursor: pointer;
+  color: #ffffff;
+  right: -20px;
+  bottom: -20px;
+  padding-top: 11px;
+}
