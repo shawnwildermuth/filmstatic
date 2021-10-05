@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\helloworldfilm"
+		}
+	],
+  "settings": {
+    "workbench.colorCustomizations": {
+
+      "terminal.background": "#222",
+      "terminal.foreground": "#eee",
+    }
+  }
+}
