@@ -4284,8 +4284,6 @@ input.main-search-input:-ms-input-placeholder {
     color: #ef6330;
     margin-right: 10px; }
 
-.movie--details--text h2 {
-  font-family: 'Noto Serif', serif; }
 
 .movie--details--text p {
   line-height: 2; }
@@ -4300,12 +4298,11 @@ input.main-search-input:-ms-input-placeholder {
     .movie--details--info {
       padding: 20px; } }
   .movie--details--info h2 {
-    font-family: 'Noto Serif', serif;
     font-size: 40px;
     margin-bottom: 20px; }
   .movie--details--info h4 {
     margin-bottom: 0;
-    font-family: 'Noto Serif', serif; }
+  }
   .movie--details--info p {
     margin-bottom: 0;
     font-weight: 600; }

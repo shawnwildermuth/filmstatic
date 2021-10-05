@@ -7,7 +7,7 @@
 @tailwind utilities;
 
 
-.slider--videos span a i {
+.slider--videos span a i, .video--content a i {
   padding-left: 5px;
 }
 
@@ -32,4 +32,8 @@
 .hwfilm-font {
   font-family: 'Newsreader', serif;
   font-weight: 200;
+}
+
+.festival-list img {
+  align-self: center;
 }
