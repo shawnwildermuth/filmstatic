@@ -4322,7 +4322,7 @@ input.main-search-input:-ms-input-placeholder {
     margin-right: -15px; }
     .movie--details--gallery ul li {
       float: left;
-      width: 38%;
+      width: 80%;
       margin: 15px; }
       @media only screen and (min-width: 768px) and (max-width: 991px) {
         .movie--details--gallery ul li {
