@@ -96,7 +96,7 @@ $('.popup-image').magnificPopup({
 });
 
 /* magnificPopup video view */
-$('.popup-video').magnificPopup({
+$('.popup-video').not("[data-cancel]").magnificPopup({
 	type: 'iframe'
 });
 
@@ -120,20 +120,6 @@ $('.owl-carousel').owlCarousel({
         }
     }
 })
-
-
-/* magnificPopup img view */
-$('.popup-image').magnificPopup({
-	type: 'image',
-	gallery: {
-	  enabled: true
-	}
-});
-
-/* magnificPopup video view */
-$('.popup-video').magnificPopup({
-	type: 'iframe'
-});
 
 
 // isotop

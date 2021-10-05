@@ -10,7 +10,7 @@ function clean() {
 }
 
 function siteJs() {
-  return src("src/_includes/js/site.js")
+  return src("src/_includes/js/*.js")
   .pipe(uglify())
   .pipe(rename("hwfilm.min.js"))
   .pipe(dest("_site/js/"));

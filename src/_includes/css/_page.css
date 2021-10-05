@@ -1,5 +1,7 @@
 @tailwind base;
 
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:wght@200&display=swap');
+
 @tailwind components;
 
 @tailwind utilities;
@@ -21,4 +23,13 @@
   right: -20px;
   bottom: -20px;
   padding-top: 11px;
+}
+
+.laurels img {
+  border: white 1px solid;
+}
+
+.hwfilm-font {
+  font-family: 'Newsreader', serif;
+  font-weight: 200;
 }
