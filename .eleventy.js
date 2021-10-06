@@ -32,9 +32,16 @@ module.exports = function (eleventyConfig) {
   )
 
   // STATIC FILES
-  const staticFiles = [ "css", "img", "lib", "fonts", "js"];
+  const staticFiles = [ "css", "img", "lib", "fonts", "js", {"icons": "/"}];
   for (let i = 0; i < staticFiles.length; i++) {
-    eleventyConfig.addPassthroughCopy({ [`src/static/${staticFiles[i]}`]: staticFiles[i] });
+    const path = staticFiles[i];
+    if (typeof path === "string") {
+      eleventyConfig.addPassthroughCopy({ [`src/static/${path}`]: path });
+    } else {
+      const key = Object.keys(path)[0];
+      const value = path[key];
+      eleventyConfig.addPassthroughCopy({ [`src/static/${key}`]: value });
+    }
   }
 
   // TRANSFORM -- Minify HTML Output

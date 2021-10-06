@@ -1,0 +1,15 @@
+<div class="m-1 w-full sm:w-40 border rounded shadow-md text-center">
+  <div class="text-md font-semibold">{{ platform.country }}</div>
+  <div class="flex justify-center">
+    {% for key, value in platform.stores %}
+      <span class="mx-2 inline">
+        {% if "iTunes" in key %}
+          <i class="fab fa-apple"></i>
+        {% else %}
+          <i class="fab fa-google"></i>
+        {% endif %}
+        <a class="underline text-yellow-800" href="{{ value }}">{{ key }}</a>
+      </span>
+    {% endfor %}
+  </div>
+</div>

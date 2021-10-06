@@ -12,6 +12,7 @@
 
       "terminal.background": "#222",
       "terminal.foreground": "#eee",
-    }
+    },
+    "liveServer.settings.multiRootWorkspaceName": "filmstatic"
   }
 }

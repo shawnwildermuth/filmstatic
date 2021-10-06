@@ -1,0 +1,153 @@
+{% macro platformWidget(platform) %}
+  {% include "hwfilm/_platform-widget.njk" %}
+{% endmacro %}
+
+{% macro internationalWidget(platform) %}
+  {% include "hwfilm/_international-widget.njk" %} 
+{% endmacro %}
+
+<a name="watch"></a>
+<section class="faq pt-4 pb-8">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 mb-30">
+        <h2>How To Watch</h2>
+        <p>The film is available in Worldwide. Watch it now:</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="faq-wrapper">
+          <div class="accordion" id="watchProviders">
+            <div class="card">
+              <!-- streaming -->
+              <div class="card-header" id="headingOne">
+                <h5 class="mb-0">
+                  <a href="#" class="btn-link" data-toggle="collapse"
+                                                data-target="#collapseOne" aria-expanded="true"
+                                                aria-controls="collapseOne">
+                    <i class="fal fa-angle-right"></i>
+                                                Streaming in North America
+                                            </a>
+                </h5>
+              </div>
+              <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                                        data-parent="#watchProviders">
+                <div class="card-body d-flex">
+                  <div class="card-text">
+                    <div class="flex flex-wrap">
+                      {% for item in filmplatforms.hwfilm.northamerica.streaming %}
+                        {{ platformWidget(item) }}
+                      {% endfor %}
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <!-- ondemand -->
+              <div class="card-header" id="headingTwo">
+                <h5 class="mb-0">
+                  <a href="#" class="btn-link collapsed" data-toggle="collapse"
+                                                data-target="#collapseTwo" aria-expanded="false"
+                                                aria-controls="collapseTwo">
+                    <i class="fal fa-angle-right"></i>
+                                                OnDemand in North America
+                                            </a>
+                </h5>
+              </div>
+              <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+                                        data-parent="#watchProviders">
+                <div class="card-body">
+                  <div class="card-text">
+                    <div class="flex flex-wrap">
+                      {% for item in filmplatforms.hwfilm.northamerica.ondemand %}
+                        {{ platformWidget(item) }}
+                      {% endfor %}
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <!-- cable -->
+              <div class="card-header" id="headingThree">
+                <h5 class="mb-0">
+                  <a href="#" class="btn-link collapsed" data-toggle="collapse"
+                                                data-target="#collapseThree" aria-expanded="false"
+                                                aria-controls="collapseThree">
+                    <i class="fal fa-angle-right"></i>
+                                                Cable PPV
+                                            </a>
+                </h5>
+              </div>
+              <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                                        data-parent="#watchProviders">
+                <div class="card-body">
+                  <div class="card-text">
+                    <div class="flex flex-wrap">
+                      {% for item in filmplatforms.hwfilm.northamerica.cable %}
+                        {{ platformWidget(item) }}
+                      {% endfor %}
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <!-- dvd -->
+              <div class="card-header" id="headingFour">
+                <h5 class="mb-0">
+                  <a href="#" class="btn-link collapsed" data-toggle="collapse"
+                                                data-target="#collapseFour" aria-expanded="false"
+                                                aria-controls="collapseFour">
+                    <i class="fal fa-angle-right"></i>
+                                                Buy on DVD/Bluray
+                                            </a>
+                </h5>
+              </div>
+              <div id="collapseFour" class="collapse" aria-labelledby="headingFour"
+                                        data-parent="#watchProviders">
+                <div class="card-body">
+                  <div class="card-text">
+                    <div class="flex flex-wrap">
+                      {% for item in filmplatforms.hwfilm.northamerica.dvd %}
+                        {{ platformWidget(item) }}
+                      {% endfor %}
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <!-- intl -->
+              <div class="card-header" id="headingFive">
+                <h5 class="mb-0">
+                  <a href="#" class="btn-link collapsed" data-toggle="collapse"
+                                                data-target="#collapseFive" aria-expanded="false"
+                                                aria-controls="collapseFive">
+                    <i class="fal fa-angle-right"></i>
+                                                International OnDemand
+                                            </a>
+                </h5>
+              </div>
+              <div id="collapseFive" class="collapse" aria-labelledby="headingFive"
+                                        data-parent="#watchProviders">
+                <div class="card-body">
+                  <div class="card-text">
+                    <div class="flex flex-wrap">
+                      {% for platform in filmplatforms.hwfilm.international.ondemand %}
+                        {{ internationalWidget(platform) }}
+                      {% endfor %}
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
