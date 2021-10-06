@@ -32,7 +32,7 @@ module.exports = function (eleventyConfig) {
   )
 
   // STATIC FILES
-  const staticFiles = [ "css", "img", "lib", "fonts"];
+  const staticFiles = [ "css", "img", "lib", "fonts", "js"];
   for (let i = 0; i < staticFiles.length; i++) {
     eleventyConfig.addPassthroughCopy({ [`src/static/${staticFiles[i]}`]: staticFiles[i] });
   }

@@ -10,9 +10,13 @@ function clean() {
 }
 
 function siteJs() {
-  return src("src/_includes/js/*.js")
+  return src([
+    "src/_includes/js/plugins.js", 
+    "src/_includes/js/main.js", 
+    "src/_includes/js/site.js"
+  ], { allowEmpty: true })
   .pipe(uglify())
-  .pipe(rename("hwfilm.min.js"))
+  .pipe(concat("twain.min.js"))
   .pipe(dest("_site/js/"));
 }
 
