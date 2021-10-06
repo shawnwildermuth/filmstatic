@@ -119,12 +119,14 @@
 
         {
           "country": "Argentina",
+          "countryCode": "ar",
           "stores": {
             "Google Play": "https://play.google.com/store/movies/details/Hola_Mundo?id=7ksbjZAzWkQ.P&hl=es&gl=ar"
           }
         },
         {
           "country": "Australia",
+          "countryCode": "au",
           "stores": {
             "iTunes": "https://itunes.apple.com/au/movie/hello-world/id1554132666?ls=1"
           }
@@ -132,60 +134,70 @@
 
         {
           "country": "Belarus",
+          "countryCode": "bs",
           "stores": {
             "iTunes": "https://itunes.apple.com/by/movie/hello-world/id1554132666?ls=1"
           }
         },
         {
           "country": "Belgium",
+          "countryCode": "be",
           "stores": {
             "iTunes": "https://itunes.apple.com/be/movie/hello-world/id1554132666?ls=1"
           }
         },
         {
           "country": "Belize",
+          "countryCode": "bz",
           "stores": {
             "Google": "https://play.google.com/store/movies/details/Hola_Mundo?id=9D8E74X0YbM.P&hl=es&gl=bz"
           }
         },
         {
           "country": "Bolivia",
+          "countryCode": "bo",
           "stores": {
             "Google": "https://play.google.com/store/movies/details/Hola_Mundo?id=iXqdbMsjUeI.P&hl=es&gl=bo"
           }
         },
         {
           "country": "Brazil",
+          "countryCode": "br",
           "stores": {
             "Google": "https://play.google.com/store/movies/details/Ol%C3%A1_Mundo?id=Lsm8dQ5RQzM.P&hl=pt&gl=br"
           }
         },
         {
           "country": "Bulgaria",
+          "countryCode": "bg",
           "stores": {
             "iTunes": "https://itunes.apple.com/bg/movie/hello-world/id1554132666?ls=1"
           }
         },
         {
           "country": "Chile",
+          "countryCode": "ch",
           "stores": {
             "Google": "https://play.google.com/store/movies/details/Hola_Mundo?id=j9CWi42UwDw.P&hl=es&gl=cl"
           }
         },
         {
           "country": "Colombia",
+          "countryCode": "co",
           "stores": {
             "Google": "https://play.google.com/store/movies/details/Hola_Mundo?id=q9b8ps19FcQ.P&hl=es&gl=co"
           }
         },
         {
           "country": "Costa Rica",
+          "countryCode": "cr",
           "stores": {
             "Google": "https://play.google.com/store/movies/details/Hola_Mundo?id=xxfCp6J3PuI.P&hl=es&gl=cr"
           }
         },
         {
           "country": "Cyprus",
+          "countryCode": "cy",
           "stores": {
             "iTunes": "https://itunes.apple.com/cy/movie/hello-world/id1554132666?ls=1"
           }
@@ -193,6 +205,7 @@
 
         {
           "country": "Czechia",
+          "countryCode": "cz",
           "stores": {
             "iTunes": "https://itunes.apple.com/cz/movie/hello-world/id1554132666?ls=1"
           }
@@ -200,6 +213,7 @@
 
         {
           "country": "Denmark",
+          "countryCode": "dk",
           "stores": {
             "iTunes": "https://itunes.apple.com/dk/movie/hello-world/id1554132666?ls=1"
           }
@@ -207,24 +221,28 @@
 
         {
           "country": "Dominican Republic",
+          "countryCode": "do",
           "stores": {
             "Google": "https://play.google.com/store/movies/details/Hola_Mundo?id=_x0HjXTIZG0.P&hl=es&gl=do"
           }
         },
         {
           "country": "Ecuador",
+          "countryCode": "ec",
           "stores": {
             "Google": "https://play.google.com/store/movies/details/Hola_Mundo?id=mTWrFYeGBng.P&hl=es&gl=ec"
           }
         },
         {
           "country": "El Salvador",
+          "countryCode": "es",
           "stores": {
             "Google": "https://play.google.com/store/movies/details/Hola_Mundo?id=2XJ3jRbUSDA.P&hl=es&gl=sv"
           }
         },
         {
           "country": "Estonia",
+          "countryCode": "et",
           "stores": {
             "iTunes": "https://itunes.apple.com/ee/movie/hello-world/id1554132666?ls=1"
           }
@@ -233,6 +251,7 @@
 
         {
           "country": "Finland",
+          "countryCode": "fi",
           "stores": {
             "iTunes": "https://itunes.apple.com/fi/movie/hello-world/id1554132666?ls=1"
           }
@@ -240,15 +259,17 @@
 
         {
           "country": "France",
+          "countryCode": "fr",
           "stores": {
             "iTunes": "https://itunes.apple.com/fr/movie/hello-world/id1554132666?ls=1",
-            "iTunes": "https://play.google.com/store/movies/details/Bonjour_le_monde?id=Uvzs6Y_rGtk.P&hl=fr&gl=fr"
+            "Google": "https://play.google.com/store/movies/details/Bonjour_le_monde?id=Uvzs6Y_rGtk.P&hl=fr&gl=fr"
           }
         },
 
 
         {
           "country": "Greece",
+          "countryCode": "gr",
           "stores": {
             "iTunes": "https://itunes.apple.com/gr/movie/hello-world/id1554132666?ls=1"
           }
@@ -256,18 +277,21 @@
 
         {
           "country": "Guatemala",
+          "countryCode": "gu",
           "stores": {
             "Google": "https://play.google.com/store/movies/details/Hola_Mundo?id=kzaI6h80hD0.P&hl=es&gl=gt"
           }
         },
         {
           "country": "Honduras",
+          "countryCode": "hn",
           "stores": {
             "Google": "https://play.google.com/store/movies/details/Hola_Mundo?id=7CUMPIKIaTY.P&hl=es&gl=hn"
           }
         },
         {
           "country": "Hungary",
+          "countryCode": "hu",
           "stores": {
             "iTunes": "https://itunes.apple.com/hu/movie/hello-world/id1554132666?ls=1"
           }
@@ -275,6 +299,7 @@
 
         {
           "country": "Indonesia",
+          "countryCode": "id",
           "stores": {
             "iTunes": "https://itunes.apple.com/id/movie/hello-world/id1554132666?ls=1"
           }
@@ -282,6 +307,7 @@
 
         {
           "country": "Ireland",
+          "countryCode": "ei",
           "stores": {
             "iTunes": "https://itunes.apple.com/ie/movie/hello-world/id1554132666?ls=1",
             "Google": "https://play.google.com/store/movies/details/Hello_World?id=pEOP3c9w1Zg.P&gl=ie"
@@ -290,6 +316,7 @@
 
         {
           "country": "Israel",
+          "countryCode": "is",
           "stores": {
             "iTunes": "https://itunes.apple.com/il/movie/hello-world/id1554132666?ls=1"
           }
@@ -297,12 +324,14 @@
 
         {
           "country": "Laos",
+          "countryCode": "la",
           "stores": {
             "iTunes": "https://itunes.apple.com/la/movie/hello-world/id1554132666?ls=1"
           }
         },
         {
           "country": "Latvia",
+          "countryCode": "la",
           "stores": {
             "iTunes": "https://itunes.apple.com/lv/movie/hello-world/id1554132666?ls=1"
           }
@@ -310,6 +339,7 @@
 
         {
           "country": "Lithuania",
+          "countryCode": "li",
           "stores": {
             "iTunes": "https://itunes.apple.com/lt/movie/hello-world/id1554132666?ls=1"
           }
@@ -317,6 +347,7 @@
 
         {
           "country": "Luxembourg",
+          "countryCode": "lu",
           "stores": {
             "iTunes": "https://itunes.apple.com/lu/movie/hello-world/id1554132666?ls=1"
           }
@@ -324,6 +355,7 @@
 
         {
           "country": "Malaysia",
+          "countryCode": "my",
           "stores": {
             "iTunes": "https://itunes.apple.com/my/movie/hello-world/id1554132666?ls=1"
           }
@@ -331,6 +363,7 @@
 
         {
           "country": "Malta",
+          "countryCode": "mt",
           "stores": {
             "iTunes": "https://itunes.apple.com/mt/movie/hello-world/id1554132666?ls=1",
             "Google": "https://play.google.com/store/movies/details/Hola_Mundo?id=tTZLIc-aH-s.P&hl=es&gl=mt"
@@ -339,12 +372,14 @@
 
         {
           "country": "Mexico",
+          "countryCode": "mx",
           "stores": {
             "Google": "https://play.google.com/store/movies/details/Hola_Mundo?id=eZVK974vveE.P&hl=es&gl=mx"
           }
         },
         {
           "country": "Moldova",
+          "countryCode": "md",
           "stores": {
             "iTunes": "https://itunes.apple.com/md/movie/hello-world/id1554132666?ls=1"
           }
@@ -352,6 +387,7 @@
 
         {
           "country": "Mongolia",
+          "countryCode": "mn",
           "stores": {
             "iTunes": "https://itunes.apple.com/mn/movie/hello-world/id1554132666?ls=1"
           }
@@ -359,6 +395,7 @@
 
         {
           "country": "Netherlands",
+          "countryCode": "nl",
           "stores": {
             "iTunes": "https://itunes.apple.com/nl/movie/hello-world/id1554132666?ls=1",
             "Google": "https://play.google.com/store/movies/details/Hello_World?id=jCykbazauFM.P&gl=nl"
@@ -367,6 +404,7 @@
 
         {
           "country": "New Zealand",
+          "countryCode": "nz",
           "stores": {
             "iTunes": "https://itunes.apple.com/nz/movie/hello-world/id1554132666?ls=1",
             "Google": "https://play.google.com/store/movies/details/Hello_World?id=eZVK974vveE.P&gl=nz"
@@ -375,12 +413,14 @@
 
         {
           "country": "Nicaragua",
+          "countryCode": "ni",
           "stores": {
             "Google": "https://play.google.com/store/movies/details/Hola_Mundo?id=y0IgUeAT3jY.P&hl=es&gl=ni"
           }
         },
         {
           "country": "Norway",
+          "countryCode": "no",
           "stores": {
             "iTunes": "https://itunes.apple.com/no/movie/hello-world/id1554132666?ls=1"
           }
@@ -388,24 +428,28 @@
 
         {
           "country": "Panama",
+          "countryCode": "pn",
           "stores": {
             "Google": "https://play.google.com/store/movies/details/Hola_Mundo?id=f4oH5Obyz24.P&hl=es&gl=pa"
           }
         },
         {
           "country": "Paraguay",
+          "countryCode": "pr",
           "stores": {
             "Google": "https://play.google.com/store/movies/details/Hola_Mundo?id=RmjeZTzoifc.P&hl=es&gl=py"
           }
         },
         {
           "country": "Peru",
+          "countryCode": "pe",
           "stores": {
             "Google": "https://play.google.com/store/movies/details/Hola_Mundo?id=9cmT69v-RwM.P&hl=es&gl=pe"
           }
         },
         {
           "country": "Philippines",
+          "countryCode": "ph",
           "stores": {
             "iTunes": "https://itunes.apple.com/ph/movie/hello-world/id1554132666?ls=1"
           }
@@ -413,6 +457,7 @@
 
         {
           "country": "Poland",
+          "countryCode": "pl",
           "stores": {
             "iTunes": "https://itunes.apple.com/pl/movie/hello-world/id1554132666?ls=1"
           }
@@ -420,6 +465,7 @@
 
         {
           "country": "Portugal",
+          "countryCode": "pt",
           "stores": {
             "iTunes": "https://itunes.apple.com/pt/movie/hello-world/id1554132666?ls=1"
           }
@@ -427,6 +473,7 @@
 
         {
           "country": "Slovakia",
+          "countryCode": "sk",
           "stores": {
             "iTunes": "https://itunes.apple.com/sk/movie/hello-world/id1554132666?ls=1"
           }
@@ -434,6 +481,7 @@
 
         {
           "country": "Slovenia",
+          "countryCode": "si",
           "stores": {
             "iTunes": "https://itunes.apple.com/si/movie/hello-world/id1554132666?ls=1"
           }
@@ -441,6 +489,7 @@
 
         {
           "country": "Sri Lanka",
+          "countryCode": "lk",
           "stores": {
             "iTunes": "https://itunes.apple.com/lk/movie/hello-world/id1554132666?ls=1"
           }
@@ -448,6 +497,7 @@
 
         {
           "country": "Sweden",
+          "countryCode": "se",
           "stores": {
             "iTunes": "https://itunes.apple.com/se/movie/hello-world/id1554132666?ls=1"
           }
@@ -455,6 +505,7 @@
 
         {
           "country": "Tajikistan",
+          "countryCode": "tj",
           "stores": {
             "iTunes": "https://itunes.apple.com/tj/movie/hello-world/id1554132666?ls=1"
           }
@@ -462,6 +513,7 @@
 
         {
           "country": "Turkmenistan",
+          "countryCode": "tm",
           "stores": {
             "iTunes": "https://itunes.apple.com/tm/movie/hello-world/id1554132666?ls=1"
           }
@@ -469,6 +521,7 @@
 
         {
           "country": "United Kingdom",
+          "countryCode": "gb",
           "stores": {
             "iTunes": "https://itunes.apple.com/gb/movie/hello-world/id1554132666?ls=1",
             "Google": "https://play.google.com/store/movies/details/Hello_World?id=MacmnYUncQc.P&hl=en&gl=gb"
@@ -477,18 +530,21 @@
 
         {
           "country": "Uruguay",
+          "countryCode": "uy",
           "stores": {
             "Google": "https://play.google.com/store/movies/details/Hola_Mundo?id=IB3lQAI19fg.P&hl=es&gl=uy"
           }
         },
         {
           "country": "Venezuela",
+          "countryCode": "ve",
           "stores": {
             "Google": "https://play.google.com/store/movies/details/Hola_Mundo?id=sOK1GtqRpbs.P&hl=es&gl=ve"
           }
         },
         {
           "country": "Vietnam",
+          "countryCode": "vn",
           "stores": {
             "iTunes": "https://itunes.apple.com/vn/movie/hello-world/id1554132666?ls=1"
           }

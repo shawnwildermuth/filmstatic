@@ -1,13 +1,16 @@
 <div class="m-1 w-full sm:w-40 border rounded shadow-md text-center">
+  <img src="https://www.countryflags.io/{{ platform.countryCode }}/flat/64.png" alt="{{platform.country}}"/>
   <div class="text-md font-semibold">{{ platform.country }}</div>
   <div class="flex justify-center">
     {% for key, value in platform.stores %}
       <span class="mx-2 inline">
-        {% if "iTunes" in key %}
-          <i class="fab fa-apple"></i>
-        {% else %}
-          <i class="fab fa-google"></i>
-        {% endif %}
+        <a class="text-yellow-800" href="{{ value }}">
+          {% if "iTunes" in key %}
+            <i class="fab fa-apple"></i>
+          {% else %}
+            <i class="fab fa-google"></i>
+          {% endif %}
+        </a>
         <a class="underline text-yellow-800" href="{{ value }}">{{ key }}</a>
       </span>
     {% endfor %}
