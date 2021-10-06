@@ -6,34 +6,41 @@
 
 @tailwind utilities;
 
+@layer utilities {
 
-.slider--videos span a i, .video--content a i {
-  padding-left: 5px;
-}
+  .slider--videos span a i,
+  .video--content a i {
+    padding-left: 5px;
+  }
 
-.project--content .right-button {
-  position: absolute;
-  height: 55px;
-  width: 55px;
-  font-size: 20px;
-  background: #ef6330;
-  border: 1px solid transparent;
-  cursor: pointer;
-  color: #ffffff;
-  right: -20px;
-  bottom: -20px;
-  padding-top: 11px;
-}
+  .team-bio {
+    @apply mt-1 bg-black p-2 text-gray-400;
+  }
 
-.laurels img {
-  border: white 1px solid;
-}
+  .project--content .right-button {
+    position: absolute;
+    height: 55px;
+    width: 55px;
+    font-size: 20px;
+    background: #ef6330;
+    border: 1px solid transparent;
+    cursor: pointer;
+    color: #ffffff;
+    right: -20px;
+    bottom: -20px;
+    padding-top: 11px;
+  }
 
-.hwfilm-font {
-  font-family: 'Newsreader', serif;
-  font-weight: 200;
-}
+  .laurels img {
+    border: white 1px solid;
+  }
 
-.festival-list img {
-  align-self: center;
+  .hwfilm-font {
+    font-family: 'Newsreader', serif;
+    font-weight: 200;
+  }
+
+  .festival-list img {
+    align-self: center;
+  }
 }
