@@ -51,4 +51,21 @@
   .navbar--main nav ul li a {
     @apply text-2xl; 
   }
+
+  .read--more--plain {
+    font-size: 15px;
+    font-weight: 700;
+    color: #6a6a6a;
+    letter-spacing: 0.1em;
+    font-family: 'Bebas Neue';
+    -webkit-transition: all 0.4s ease-out 0s;
+    -moz-transition: all 0.4s ease-out 0s;
+    -ms-transition: all 0.4s ease-out 0s;
+    -o-transition: all 0.4s ease-out 0s;
+    transition: all 0.4s ease-out 0s;
+  }
+
+  .feature--wrapper:hover svg {
+    @apply filter invert;
+  }
 }

@@ -3547,7 +3547,7 @@ input.main-search-input:-ms-input-placeholder {
   .feature--block--four {
     padding-right: 30px; }
 
-.feature--wrapper {
+/* .feature--wrapper {
   position: relative; }
   .feature--wrapper::before, .feature--wrapper::after {
     position: absolute;
@@ -3575,7 +3575,7 @@ input.main-search-input:-ms-input-placeholder {
         display: none; } }
   .feature--wrapper:hover::before, .feature--wrapper:hover::after {
     background: #ef6330;
-    transform: translateY(-50%) translateX(-50%) rotate(98deg); }
+    transform: translateY(-50%) translateX(-50%) rotate(98deg); } */
 
 .feature--icon--h3 i {
   margin-right: 34px;

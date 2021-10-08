@@ -5,8 +5,13 @@ const uglifycss = require("gulp-uglifycss");
 const del = require("del");
 const rename = require("gulp-rename");
 
-function clean() {
-  return del(["_site/js/"]);
+function libs() {
+  return src([
+    "node_modules/@fortawesome/fontawesome-free/js/brands.min.js",
+    "node_modules/@fortawesome/fontawesome-free/js/solid.min.js",
+    "node_modules/@fortawesome/fontawesome-free/js/fontawesome.min.js",
+  ])
+  .pipe(dest("_site/lib/"));
 }
 
 function siteJs() {
@@ -20,6 +25,6 @@ function siteJs() {
   .pipe(dest("_site/js/"));
 }
 
-exports.clean = clean;
 exports.siteJs = siteJs;
-exports.default = parallel(siteJs);
+exports.libs = libs
+exports.default = parallel(siteJs, libs);
