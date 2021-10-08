@@ -43,4 +43,12 @@
   .festival-list img {
     align-self: center;
   }
+
+  .navbar--main nav {
+    @apply mr-16;
+  }
+
+  .navbar--main nav ul li a {
+    @apply text-2xl; 
+  }
 }
