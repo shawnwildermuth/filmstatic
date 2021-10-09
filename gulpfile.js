@@ -39,9 +39,33 @@ function mergeLibs() {
     "wow.min.js"
   ];
 
-  return src(libs, { cwd: "./src/static/lib/"})
+  return src(libs, { cwd: "./src/static/lib/", sourcemaps: true })
     .pipe(concat("twain.libs.js"))
     .pipe(dest("_site/lib/"));
+}
+
+function mergeCssLibs() {
+  const sheets = [
+    "css/bootstrap.min.css",
+    "css/animate.min.css",
+    "css/custom-animation.css",
+    "css/bootstrap-datepicker.css",
+    "css/nice-select.css",
+    "fonts/flaticon.css",
+    "css/magnific-popup.css",
+    "css/aos.css",
+    "css/meanmenu.css",
+    "css/owl.carousel.min.css",
+    "css/slick.css",
+    "css/style.css",
+    "css/responsive.css"
+  ];
+
+  return src(sheets, { cwd: "./src/static/" , sourcemaps: true})
+    .pipe(uglifycss())
+    .pipe(concat("twain.libs.css"))
+    .pipe(dest("_site/lib/"));
+
 }
 
 function siteJs() {
@@ -55,7 +79,8 @@ function siteJs() {
   .pipe(dest("_site/js/"));
 }
 
+exports.mergeCssLibs = mergeCssLibs;
 exports.siteJs = siteJs;
 exports.libs = fontAwesome;
 exports.mergeLibs = mergeLibs;
-exports.default = parallel(siteJs, fontAwesome, mergeLibs);
+exports.default = parallel(siteJs, fontAwesome, mergeLibs, mergeCssLibs);

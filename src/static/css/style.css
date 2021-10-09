@@ -1681,15 +1681,14 @@ label {
 
 .faq-wrapper .card-header h5 a::after {
   position: absolute;
-  content: "\f068";
+  content: "-";
   top: 0;
   right: 0;
-  font-family: "Font Awesome 5 Pro";
   height: 100%;
   width: 80px;
   text-align: center;
   line-height: 75px;
-  font-size: 20px;
+  font-size: 48px;
   background: #ef6330;
   font-weight: 400;
   color: #fff; }
@@ -1699,7 +1698,7 @@ label {
     right: 0; } }
 
 .faq-wrapper .card-header h5 a.collapsed::after {
-  content: "\f067"; }
+  content: "+"; } 
 
 .faq-wrapper .card-body {
   -webkit-box-flex: unset;
@@ -2587,8 +2586,7 @@ input.main-search-input:-ms-input-placeholder {
     letter-spacing: 0.1em;
     font-family: 'Bebas Neue'; }
     .header--lang ul li a::after {
-      content: "\f0d7";
-      font-family: "font awesome 5 pro";
+      content: "+";
       line-height: 1;
       padding-left: 10px;
       font-size: 17px; }
@@ -2866,13 +2864,6 @@ input.main-search-input:-ms-input-placeholder {
     opacity: 1;
     visibility: visible;
     top: 96%; }
-
-/* .navbar--main nav ul .drop a:after {
-  content: "\f0d7";
-  font-family: "font awesome 5 pro";
-  font-size: 17px;
-  padding-left: 7px;
-  color: #acacac; } */
 
 .navbar--main--h3 nav ul li a {
   color: #222222; }
@@ -5512,12 +5503,11 @@ input.main-search-input:-ms-input-placeholder {
     letter-spacing: -.3px;
     line-height: 1.3; }
   .post-text blockquote::before {
-    content: "\f10d";
+    content: "\"";
     left: 50px;
     top: 50px;
     position: absolute;
     color: #758799;
-    font-family: "Font Awesome 5 Pro";
     font-weight: 700;
     font-size: 41px; }
     @media (max-width: 767px) {

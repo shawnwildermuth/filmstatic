@@ -52,7 +52,7 @@
     @apply text-2xl; 
   }
 
-  .read--more--plain {
+  .read--more--plain { 
     font-size: 15px;
     font-weight: 700;
     color: #6a6a6a;
