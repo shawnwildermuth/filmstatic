@@ -2867,12 +2867,12 @@ input.main-search-input:-ms-input-placeholder {
     visibility: visible;
     top: 96%; }
 
-.navbar--main nav ul .drop a:after {
+/* .navbar--main nav ul .drop a:after {
   content: "\f0d7";
   font-family: "font awesome 5 pro";
   font-size: 17px;
   padding-left: 7px;
-  color: #acacac; }
+  color: #acacac; } */
 
 .navbar--main--h3 nav ul li a {
   color: #222222; }
@@ -4500,7 +4500,7 @@ input.main-search-input:-ms-input-placeholder {
 
 .team--social::before {
   position: absolute;
-  content: "\f178";
+  content: "+";
   width: 76px;
   height: 100%;
   top: 0;
@@ -4510,8 +4510,8 @@ input.main-search-input:-ms-input-placeholder {
   line-height: 76px;
   font-size: 24px;
   color: #fff;
-  font-weight: 300;
-  font-family: "Font Awesome 5 Pro";
+  /* font-weight: 300;
+  font-family: "Font Awesome 5 Pro"; */
   cursor: pointer;
   -webkit-transition: all 0.4s ease-out 0s;
   -moz-transition: all 0.4s ease-out 0s;
