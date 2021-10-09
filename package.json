@@ -10,7 +10,7 @@
     "start:gulp": "nodemon -e js,css -x npm run build:gulp -w ./gulpfile.js",
     "build": "cross-env NODE_ENV=production npm-run-all -l clean build:*",
     "build:eleventy": "eleventy",
-    "build:tailwind": "tailwind build -i ./src/_includes/css/_page.css -o ./_site/css/site.min.css --minify",
+    "build:tailwind": "tailwind build -i ./src/_includes/css/_page.css -o ./_site/css/site.min.css --minify --jit",
     "build:gulp": "gulp"
   },
   "author": "ttntm",
