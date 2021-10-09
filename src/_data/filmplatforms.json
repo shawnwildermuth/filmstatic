@@ -110,7 +110,7 @@
       }],
       "dvd": [{
         "url": "https://amzn.to/2KoBQA8",
-        "img": "/img/hwfilm/platforms/dvd/amazondvd.png",
+        "img": "/img/hwfilm/platforms/Disc/amazondvd.png",
         "name": "Amazon"
       }]
     },
@@ -307,7 +307,7 @@
 
         {
           "country": "Ireland",
-          "countryCode": "ei",
+          "countryCode": "ie",
           "stores": {
             "iTunes": "https://itunes.apple.com/ie/movie/hello-world/id1554132666?ls=1",
             "Google": "https://play.google.com/store/movies/details/Hello_World?id=pEOP3c9w1Zg.P&gl=ie"
