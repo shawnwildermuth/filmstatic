@@ -81,4 +81,8 @@
   .form-box-error-message {
     @apply text-red-600 italic font-serif;
   }
+
+  .navbar--main nav ul li:hover ul.submenu {
+    @apply w-72;
+  }
 }

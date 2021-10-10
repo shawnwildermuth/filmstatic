@@ -27,8 +27,8 @@
       dots: false,
       fade: true,
       arrows: true,
-      prevArrow: "<i class='common-arrow common-arrow--prev slider--arrow slider--prev fal fa-long-arrow-left'></i>",
-      nextArrow: "<i class='common-arrow common-arrow--next slider--arrow slider--next fal fa-long-arrow-right'></i>",
+      prevArrow: "<i class='common-arrow common-arrow--prev slider--arrow slider--prev fal fa-lg fa-angle-left'></i>",
+      nextArrow: "<i class='common-arrow common-arrow--next slider--arrow slider--next fal fa-lg fa-angle-right'></i>",
       responsive: [{ breakpoint: 767, settings: { dots: false, arrows: false } }],
     });
 
@@ -201,8 +201,8 @@
     dots: false,
     fade: false,
     arrows: true,
-    prevArrow: "<i class='common-arrow common-arrow--prev top--arrow top--arrow--prev fal fa-long-arrow-left'></i>",
-    nextArrow: "<i class='common-arrow common-arrow--next top--arrow top--arrow--next fal fa-long-arrow-right'></i>",
+    prevArrow: "<i class='common-arrow common-arrow--prev top--arrow top--arrow--prev fal fa-lg fa-angle-left'></i>",
+    nextArrow: "<i class='common-arrow common-arrow--next top--arrow top--arrow--next fal fa-lg fa-angle-right'></i>",
     slidesToShow: 3,
     slidesToScroll: 1,
     responsive: [
@@ -247,8 +247,8 @@
     dots: false,
     fade: false,
     arrows: true,
-    prevArrow: "<i class='common-arrow common-arrow--prev top--arrow top--arrow--two top--arrow--prev fal fa-long-arrow-left'></i>",
-    nextArrow: "<i class='common-arrow common-arrow--next top--arrow top--arrow--two top--arrow--next fal fa-long-arrow-right'></i>",
+    prevArrow: "<i class='common-arrow common-arrow--prev top--arrow top--arrow--two top--arrow--prev fal fa-lg fa-angle-left'></i>",
+    nextArrow: "<i class='common-arrow common-arrow--next top--arrow top--arrow--two top--arrow--next fal fa-lg fa-angle-right'></i>",
     slidesToShow: 3,
     slidesToScroll: 1,
     responsive: [
@@ -292,8 +292,8 @@
     dots: true,
     fade: false,
     arrows: true,
-    prevArrow: "<i class='common-arrow common-arrow--prev top--arrow top--arrow--two top--arrow--prev fal fa-long-arrow-left'></i>",
-    nextArrow: "<i class='common-arrow common-arrow--next top--arrow top--arrow--two top--arrow--next fal fa-long-arrow-right'></i>",
+    prevArrow: "<i class='common-arrow common-arrow--prev top--arrow top--arrow--two top--arrow--prev fal fa-lg fa-angle-left'></i>",
+    nextArrow: "<i class='common-arrow common-arrow--next top--arrow top--arrow--two top--arrow--next fal fa-lg fa-angle-right'></i>",
     slidesToShow: 2,
     slidesToScroll: 1,
     responsive: [
@@ -338,8 +338,8 @@
     dots: false,
     fade: false,
     arrows: true,
-    prevArrow: "<i class='common-arrow common-arrow--prev slider--arrow slider--prev fal fa-long-arrow-left'></i>",
-    nextArrow: "<i class='common-arrow common-arrow--next slider--arrow slider--next fal fa-long-arrow-right'></i>",
+    prevArrow: "<i class='common-arrow common-arrow--prev slider--arrow slider--prev fal fa-lg fa-angle-left'></i>",
+    nextArrow: "<i class='common-arrow common-arrow--next slider--arrow slider--next fal fa-lg fa-angle-right'></i>",
     slidesToShow: 1,
     slidesToScroll: 1,
     responsive: [
@@ -383,8 +383,8 @@
     dots: false,
     fade: false,
     arrows: true,
-    prevArrow: "<i class='common-arrow common-arrow--prev slider--arrow slider--prev fal fa-long-arrow-left'></i>",
-    nextArrow: "<i class='common-arrow common-arrow--next slider--arrow slider--next fal fa-long-arrow-right'></i>",
+    prevArrow: "<i class='common-arrow common-arrow--prev slider--arrow slider--prev fal fa-lg fa-angle-left'></i>",
+    nextArrow: "<i class='common-arrow common-arrow--next slider--arrow slider--next fal fa-lg fa-angle-right'></i>",
     slidesToShow: 1,
     slidesToScroll: 1,
     responsive: [
@@ -429,8 +429,8 @@
     dots: false,
     fade: false,
     arrows: false,
-    prevArrow: "<i class='common-arrow common-arrow--prev top--arrow top--arrow--two top--arrow--prev fal fa-long-arrow-left'></i>",
-    nextArrow: "<i class='common-arrow common-arrow--next top--arrow top--arrow--two top--arrow--next fal fa-long-arrow-right'></i>",
+    prevArrow: "<i class='common-arrow common-arrow--prev top--arrow top--arrow--two top--arrow--prev fal fa-lg fa-angle-left'></i>",
+    nextArrow: "<i class='common-arrow common-arrow--next top--arrow top--arrow--two top--arrow--next fal fa-lg fa-angle-right'></i>",
     slidesToShow: 5,
     slidesToScroll: 1,
     responsive: [

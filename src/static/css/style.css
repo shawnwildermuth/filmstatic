@@ -1765,6 +1765,7 @@ label {
 
 .top--arrow--prev {
   right: 113px;
+  padding-right: 2.30rem;
 }
 
 .top--arrow--prev::after {
@@ -1777,7 +1778,7 @@ label {
 
 .top--arrow--next::after {
   right: auto;
-  left: 12px;
+  left: -24px;
 }
 
 .top--arrow--two {

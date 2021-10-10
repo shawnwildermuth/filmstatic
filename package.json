@@ -22,7 +22,6 @@
     "@11ty/eleventy-img": "^0.5.0",
     "@11ty/eleventy-navigation": "^0.1.6",
     "@11ty/eleventy-plugin-rss": "^1.1.1",
-    "@fortawesome/fontawesome-free": "^5.15.4",
     "autoprefixer": "^10.2.5",
     "axios": "^0.22.0",
     "cookieconsent": "^3.1.1",
@@ -41,12 +40,15 @@
     "npm-run-all": "^4.1.5",
     "postcss": "^8.2.9",
     "postcss-import": "^14.0.0",
+    "pristinejs": "^0.1.9",
     "rimraf": "3.0.0",
     "tailwindcss": "^2.0.4",
     "webpack": "^5.58.1",
-    "pristinejs": "^0.1.9",
     "webpack-cli": "^4.9.0"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.36",
+    "@fortawesome/free-brands-svg-icons": "^5.15.4",
+    "@fortawesome/free-solid-svg-icons": "^5.15.4"
   }
 }

@@ -5,21 +5,15 @@ const uglifycss = require("gulp-uglifycss");
 const del = require("del");
 const rename = require("gulp-rename");
 
-function fontAwesome() {
-  return src([
-    "node_modules/@fortawesome/fontawesome-free/js/brands.min.js",
-    "node_modules/@fortawesome/fontawesome-free/js/solid.min.js",
-    "node_modules/@fortawesome/fontawesome-free/js/fontawesome.min.js",
-  ])
-  .pipe(dest("_site/lib/"));
-}
-
-
-
 function mergeLibs() {
 
   const libs = [
     "vendor/jquery-1.12.4.min.js",
+    "fontawesomepro/fontawesome.min.js",
+    "fontawesomepro/fa-regular.min.js",
+    "fontawesomepro/fa-light.min.js",
+    "fontawesomepro/fa-solid.min.js",
+    "fontawesomepro/fa-brands.min.js",
     "popper.min.js",
     "bootstrap.min.js",
     "imagesloaded.pkgd.min.js",
@@ -80,6 +74,5 @@ function siteJs() {
 
 exports.mergeCssLibs = mergeCssLibs;
 exports.siteJs = siteJs;
-exports.libs = fontAwesome;
 exports.mergeLibs = mergeLibs;
-exports.default = parallel(siteJs, fontAwesome, mergeLibs, mergeCssLibs);
+exports.default = parallel(siteJs, mergeLibs, mergeCssLibs);
