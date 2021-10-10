@@ -22,7 +22,6 @@ function mergeLibs() {
     "vendor/jquery-1.12.4.min.js",
     "popper.min.js",
     "bootstrap.min.js",
-    "ajax-form.js",
     "imagesloaded.pkgd.min.js",
     "isotope.pkgd.min.js",
     "jquery.meanmenu.min.js",

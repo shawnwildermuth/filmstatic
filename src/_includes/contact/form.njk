@@ -1,0 +1,59 @@
+<!-- contact-form-area start -->
+<section class="contact-form-area">
+  <div class="container">
+    <div class="form-wrapper bg-gray-200 mb-8">
+      <div class="row align-items-center">
+        <div class="col-sm-12 text-center mb-16">
+          <div class="theme">
+            <h2 class="black-color mb-15">Send Us a Message</h2>
+            <h5 class="fw-500 primary-color">Do you have a story to tell?</h5>
+          </div>
+        </div>
+      </div>
+      <div class="contact-form">
+        <form novalidate  id="contact-form">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="form-box user-icon mb-8">
+                <i class="fas fa-user fa-2x form--input--icon"></i>
+                <input type="text" id="fullName" name="fullName" placeholder="Your Name" required minlength="5" class="placeholder-gray-300">
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="form-box email-icon mb-8">
+                <i class="fas fa-envelope fa-2x form--input--icon"></i>
+                <input type="email" id="email" name="email" placeholder="Your Email" required class="placeholder-gray-300">
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="form-box phone-icon mb-8">
+                <i class="fas fa-phone fa-2x form--input--icon"></i>
+                <input type="text" id="phone" name="phone" placeholder="Your Phone" class="placeholder-gray-300">
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="form-box subject-icon mb-8">
+                <i class="fas fa-question fa-2x form--input--icon"></i>
+                <input type="text" id="subject" name="subject" placeholder="Your Subject" required class="placeholder-gray-300">
+              </div>
+            </div>
+            <div class="col-lg-12">
+              <div class="form-box message-icon mb-8">
+                <i class="fas fa-pen fa-2x form--input--icon"></i>
+                <textarea name="message" id="body" cols="30" rows="10" placeholder="Your Message" required minlength="10" maxlength="1024" class="placeholder-gray-300"></textarea>
+              </div>
+              <div class="contact-btn text-center">
+                <button class="btn btn--theme" type="submit">
+                  <i class="fas fa-envelope mr-1"></i>
+                  contact us 
+                </button>
+              </div>
+            </div>
+          </div>
+        </form>
+        <div id="status"></div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- contact-form-area end -->

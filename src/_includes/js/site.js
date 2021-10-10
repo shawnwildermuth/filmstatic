@@ -1,20 +1,10 @@
-(function() {
+import "./plugins";
+import "./main";
+import gdrp from "./gdpr";
+import contactform from "./contactform";
 
-  window.cookieconsent.initialise({
-    "palette": {
-      "popup": {
-        "background": "#eb6c44",
-        "text": "#ffffff"
-      },
-      "button": {
-        "background": "transparent",
-        "text": "#f5d948",
-        "border": "#f5d948"
-      }
-    },
-    "content": {
-      "message": "This website uses cookies to track usage. No personal information is kept in these cookies.",
-      "href": "https://twainfilms.com/privacy"
-    }
-  });
-})();
+window.addEventListener("DOMContentLoaded", () => {
+  gdrp();
+  contactform();
+});
+

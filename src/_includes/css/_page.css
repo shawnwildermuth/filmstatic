@@ -6,8 +6,7 @@
 
 @tailwind utilities;
 
-@layer utilities {
-
+@layer components {
   .slider--videos span a i,
   .video--content a i {
     padding-left: 5px;
@@ -49,10 +48,10 @@
   }
 
   .navbar--main nav ul li a {
-    @apply text-2xl; 
+    @apply text-2xl;
   }
 
-  .read--more--plain { 
+  .read--more--plain {
     font-size: 15px;
     font-weight: 700;
     color: #6a6a6a;
@@ -67,5 +66,19 @@
 
   .feature--wrapper:hover svg {
     @apply filter invert;
+  }
+
+  .form--input--icon {
+    position: absolute;
+    left: 40px;
+    top: 24px;
+  }
+
+  .form-box.form-box-error-border input,  .form-box.form-box-error-border textarea {
+    @apply bg-yellow-50; 
+  }
+
+  .form-box-error-message {
+    @apply text-red-600 italic font-serif;
   }
 }

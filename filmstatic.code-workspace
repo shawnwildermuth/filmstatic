@@ -13,6 +13,7 @@
       "terminal.background": "#222",
       "terminal.foreground": "#eee",
     },
+    "workbench.colorTheme": "Github Light Theme",
     "liveServer.settings.multiRootWorkspaceName": "filmstatic"
   }
 }
