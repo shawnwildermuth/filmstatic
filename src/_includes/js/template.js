@@ -1,6 +1,6 @@
 (function ($) {
   "use strict";
-
+  
   // data - background
   $("[data-background]").each(function () {
     $(this).css(
@@ -241,7 +241,7 @@
           slidesToShow: 2,
           slidesToScroll: 2,
           arrows: true,
-          dots: false
+          dots: false,
         },
       },
       {
@@ -250,7 +250,7 @@
           slidesToShow: 3,
           slidesToScroll: 1,
           arrows: true,
-          dots: false
+          dots: false,
         },
       },
       // You can unslick at a given breakpoint now by adding:

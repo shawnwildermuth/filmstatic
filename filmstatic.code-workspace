@@ -1,12 +1,12 @@
 {
 	"folders": [
-		{
-			"path": "."
-		},
-		{
-			"path": "..\\helloworldfilm"
-		}
-	],
+    {
+      "path": "."
+    },
+    {
+      "path": "..\\im-fine"
+    }
+  ],
   "settings": {
     "workbench.colorCustomizations": {
 

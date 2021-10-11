@@ -1,12 +1,14 @@
 @tailwind base;
 
 @import url('https://fonts.googleapis.com/css2?family=Newsreader:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&display=swap');
 
 @tailwind components;
 
 @tailwind utilities;
 
 @layer components {
+
   .slider--videos span a i,
   .video--content a i {
     padding-left: 5px;
@@ -38,6 +40,16 @@
     font-family: 'Newsreader', serif;
     font-weight: 200;
   }
+
+  .imfine-font {
+    font-family: 'Caveat', cursive;
+    font-weight: 400;
+  }
+
+  .imfine-font.heavy {
+    font-weight: 700;
+  }
+
 
   .festival-list img {
     align-self: center;
@@ -74,8 +86,9 @@
     top: 24px;
   }
 
-  .form-box.form-box-error-border input,  .form-box.form-box-error-border textarea {
-    @apply bg-yellow-50; 
+  .form-box.form-box-error-border input,
+  .form-box.form-box-error-border textarea {
+    @apply bg-yellow-50;
   }
 
   .form-box-error-message {
@@ -85,4 +98,6 @@
   .navbar--main nav ul li:hover ul.submenu {
     @apply w-72;
   }
+
+
 }
