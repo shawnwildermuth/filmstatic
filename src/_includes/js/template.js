@@ -3,7 +3,10 @@
 
   // data - background
   $("[data-background]").each(function () {
-    $(this).css("background-image", "url(" + $(this).attr("data-background") + ")");
+    $(this).css(
+      "background-image",
+      "url(" + $(this).attr("data-background") + ")"
+    );
   });
 
   $("[data-bg-color]").each(function () {
@@ -14,26 +17,38 @@
   function mainSlider() {
     var BasicSlider = $(".slider-active");
     BasicSlider.on("init", function (e, slick) {
-      var $firstAnimatingElements = $(".single-slider:first-child").find("[data-animation]");
+      var $firstAnimatingElements = $(".single-slider:first-child").find(
+        "[data-animation]"
+      );
       doAnimations($firstAnimatingElements);
     });
-    BasicSlider.on("beforeChange", function (e, slick, currentSlide, nextSlide) {
-      var $animatingElements = $('.single-slider[data-slick-index="' + nextSlide + '"]').find("[data-animation]");
-      doAnimations($animatingElements);
-    });
+    BasicSlider.on(
+      "beforeChange",
+      function (e, slick, currentSlide, nextSlide) {
+        var $animatingElements = $(
+          '.single-slider[data-slick-index="' + nextSlide + '"]'
+        ).find("[data-animation]");
+        doAnimations($animatingElements);
+      }
+    );
     BasicSlider.slick({
       autoplay: false,
       autoplaySpeed: 10000,
       dots: false,
       fade: true,
       arrows: true,
-      prevArrow: "<i class='common-arrow common-arrow--prev slider--arrow slider--prev fal fa-lg fa-angle-left'></i>",
-      nextArrow: "<i class='common-arrow common-arrow--next slider--arrow slider--next fal fa-lg fa-angle-right'></i>",
-      responsive: [{ breakpoint: 767, settings: { dots: false, arrows: false } }],
+      prevArrow:
+        "<i class='common-arrow common-arrow--prev slider--arrow slider--prev fal fa-2x fa-angle-left'></i>",
+      nextArrow:
+        "<i class='common-arrow common-arrow--next slider--arrow slider--next fal fa-2x fa-angle-right'></i>",
+      responsive: [
+        { breakpoint: 767, settings: { dots: false, arrows: false } },
+      ],
     });
 
     function doAnimations(elements) {
-      var animationEndEvents = "webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend";
+      var animationEndEvents =
+        "webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend";
       elements.each(function () {
         var $this = $(this);
         var $animationDelay = $this.data("delay");
@@ -109,7 +124,10 @@
     loop: true,
     margin: 0,
     items: 1,
-    navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
+    navText: [
+      '<i class="fa fa-angle-left"></i>',
+      '<i class="fa fa-angle-right"></i>',
+    ],
     nav: true,
     dots: false,
     responsive: {
@@ -198,39 +216,40 @@
     speed: 1000,
     autoplay: false,
     autoplaySpeed: false,
-    dots: false,
+    dots: true,
     fade: false,
-    arrows: true,
-    prevArrow: "<i class='common-arrow common-arrow--prev top--arrow top--arrow--prev fal fa-lg fa-angle-left'></i>",
-    nextArrow: "<i class='common-arrow common-arrow--next top--arrow top--arrow--next fal fa-lg fa-angle-right'></i>",
-    slidesToShow: 3,
+    arrows: false,
+    slidesToShow: 4,
     slidesToScroll: 1,
+    prevArrow:
+      "<i class='common-arrow common-arrow--prev top--arrow top--arrow--prev fal fa-2x fa-angle-left'></i>",
+    nextArrow:
+      "<i class='common-arrow common-arrow--next top--arrow top--arrow--next fal fa-2x fa-angle-right'></i>",
     responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          arrows: true,
+        },
+      },
       {
         breakpoint: 1024,
         settings: {
           slidesToShow: 2,
-          slidesToScroll: 1,
-          infinite: true,
-          dots: false,
+          slidesToScroll: 2,
+          arrows: true,
+          dots: false
         },
       },
       {
-        breakpoint: 600,
+        breakpoint: 1280,
         settings: {
-          slidesToShow: 1,
-          arrows: false,
+          slidesToShow: 3,
           slidesToScroll: 1,
-        },
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          dots: false,
-          fade: false,
-          arrows: false,
+          arrows: true,
+          dots: false
         },
       },
       // You can unslick at a given breakpoint now by adding:
@@ -247,8 +266,10 @@
     dots: false,
     fade: false,
     arrows: true,
-    prevArrow: "<i class='common-arrow common-arrow--prev top--arrow top--arrow--two top--arrow--prev fal fa-lg fa-angle-left'></i>",
-    nextArrow: "<i class='common-arrow common-arrow--next top--arrow top--arrow--two top--arrow--next fal fa-lg fa-angle-right'></i>",
+    prevArrow:
+      "<i class='common-arrow common-arrow--prev top--arrow top--arrow--two top--arrow--prev fal fa-2x fa-angle-left'></i>",
+    nextArrow:
+      "<i class='common-arrow common-arrow--next top--arrow top--arrow--two top--arrow--next fal fa-2x fa-angle-right'></i>",
     slidesToShow: 3,
     slidesToScroll: 1,
     responsive: [
@@ -292,8 +313,10 @@
     dots: true,
     fade: false,
     arrows: true,
-    prevArrow: "<i class='common-arrow common-arrow--prev top--arrow top--arrow--two top--arrow--prev fal fa-lg fa-angle-left'></i>",
-    nextArrow: "<i class='common-arrow common-arrow--next top--arrow top--arrow--two top--arrow--next fal fa-lg fa-angle-right'></i>",
+    prevArrow:
+      "<i class='common-arrow common-arrow--prev top--arrow top--arrow--two top--arrow--prev fal fa-2x fa-angle-left'></i>",
+    nextArrow:
+      "<i class='common-arrow common-arrow--next top--arrow top--arrow--two top--arrow--next fal fa-2x fa-angle-right'></i>",
     slidesToShow: 2,
     slidesToScroll: 1,
     responsive: [
@@ -338,8 +361,10 @@
     dots: false,
     fade: false,
     arrows: true,
-    prevArrow: "<i class='common-arrow common-arrow--prev slider--arrow slider--prev fal fa-lg fa-angle-left'></i>",
-    nextArrow: "<i class='common-arrow common-arrow--next slider--arrow slider--next fal fa-lg fa-angle-right'></i>",
+    prevArrow:
+      "<i class='common-arrow common-arrow--prev slider--arrow slider--prev fal fa-2x fa-angle-left'></i>",
+    nextArrow:
+      "<i class='common-arrow common-arrow--next slider--arrow slider--next fal fa-2x fa-angle-right'></i>",
     slidesToShow: 1,
     slidesToScroll: 1,
     responsive: [
@@ -383,8 +408,10 @@
     dots: false,
     fade: false,
     arrows: true,
-    prevArrow: "<i class='common-arrow common-arrow--prev slider--arrow slider--prev fal fa-lg fa-angle-left'></i>",
-    nextArrow: "<i class='common-arrow common-arrow--next slider--arrow slider--next fal fa-lg fa-angle-right'></i>",
+    prevArrow:
+      "<i class='common-arrow common-arrow--prev slider--arrow slider--prev fal fa-2x fa-angle-left'></i>",
+    nextArrow:
+      "<i class='common-arrow common-arrow--next slider--arrow slider--next fal fa-2x fa-angle-right'></i>",
     slidesToShow: 1,
     slidesToScroll: 1,
     responsive: [
@@ -429,8 +456,10 @@
     dots: false,
     fade: false,
     arrows: false,
-    prevArrow: "<i class='common-arrow common-arrow--prev top--arrow top--arrow--two top--arrow--prev fal fa-lg fa-angle-left'></i>",
-    nextArrow: "<i class='common-arrow common-arrow--next top--arrow top--arrow--two top--arrow--next fal fa-lg fa-angle-right'></i>",
+    prevArrow:
+      "<i class='common-arrow common-arrow--prev top--arrow top--arrow--two top--arrow--prev fal fa-2x fa-angle-left'></i>",
+    nextArrow:
+      "<i class='common-arrow common-arrow--next top--arrow top--arrow--two top--arrow--next fal fa-2x fa-angle-right'></i>",
     slidesToShow: 5,
     slidesToScroll: 1,
     responsive: [
