@@ -216,6 +216,7 @@
     speed: 1000,
     autoplay: false,
     autoplaySpeed: false,
+    infinite: false,
     dots: true,
     fade: false,
     arrows: false,
