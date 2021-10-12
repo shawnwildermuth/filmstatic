@@ -32,7 +32,7 @@ module.exports = function (eleventyConfig) {
   )
 
   // STATIC FILES
-  const staticFiles = [ "css", "img", "fonts", "js", {"icons": "/"}];
+  const staticFiles = [ "css", "img", "fonts", {"icons": "/"}];
   for (let i = 0; i < staticFiles.length; i++) {
     const path = staticFiles[i];
     if (typeof path === "string") {

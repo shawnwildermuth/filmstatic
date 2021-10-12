@@ -172,7 +172,8 @@
   // meanmenu
   $("#mobile-menu").meanmenu({
     meanMenuContainer: ".mobile-menu",
-    meanScreenWidth: "992",
+    meanScreenWidth: "800",
+    meanMenuCloseSize: "24px"
   });
 
   // Header Sticky
@@ -217,7 +218,7 @@
     autoplay: false,
     autoplaySpeed: false,
     infinite: false,
-    dots: true,
+    dots: false,
     fade: false,
     arrows: false,
     slidesToShow: 4,
@@ -232,7 +233,8 @@
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
-          arrows: true,
+          arrows: false,
+          dots: true
         },
       },
       {
@@ -261,12 +263,13 @@
 
   // Team active
   $(".team-active").slick({
-    speed: 1000,
+    speed: 500,
     autoplay: false,
     autoplaySpeed: false,
     dots: false,
     fade: false,
     arrows: true,
+    infinite: false,
     prevArrow:
       "<i class='common-arrow common-arrow--prev top--arrow top--arrow--two top--arrow--prev fal fa-2x fa-angle-left'></i>",
     nextArrow:
@@ -275,16 +278,16 @@
     slidesToScroll: 1,
     responsive: [
       {
-        breakpoint: 1024,
+        breakpoint: 1280,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 1,
-          infinite: true,
+          infinite: false,
           dots: false,
         },
       },
       {
-        breakpoint: 600,
+        breakpoint: 1024,
         settings: {
           slidesToShow: 1,
           arrows: false,
@@ -292,11 +295,11 @@
         },
       },
       {
-        breakpoint: 480,
+        breakpoint: 768,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
-          dots: false,
+          dots: true,
           fade: false,
           arrows: false,
         },

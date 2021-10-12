@@ -6,7 +6,6 @@ const del = require("del");
 const rename = require("gulp-rename");
 
 function mergeLibs() {
-
   const libs = [
     "vendor/jquery-1.12.4.min.js",
     "fontawesomepro/fontawesome.min.js",
@@ -29,7 +28,7 @@ function mergeLibs() {
     "jquery.paroller.min.js",
     "aos.js",
     "slick.min.js",
-    "wow.min.js"
+    "wow.min.js",
   ];
 
   return src(libs, { cwd: "./src/static/lib/", sourcemaps: true })
@@ -50,29 +49,38 @@ function mergeCssLibs() {
     "css/meanmenu.css",
     "css/owl.carousel.min.css",
     "css/slick.css",
-    "css/style.css",
-    "css/responsive.css"
   ];
 
-  return src(sheets, { cwd: "./src/static/" , sourcemaps: true})
+  return src(sheets, { cwd: "./src/static/" })
     .pipe(uglifycss())
     .pipe(concat("twain.libs.css"))
-    .pipe(dest("_site/lib/"));
+    .pipe(dest("_site/css/"));
+}
 
+function mergeCss() {
+  const sheets = ["css/style.css", "css/responsive.css"];
+
+  return src(sheets, { cwd: "./src/static/" })
+    .pipe(concat("twain.theme.css"))
+    .pipe(dest("_site/css/"));
 }
 
 function siteJs() {
-  return src([
-    "src/_includes/js/plugins.js", 
-    "src/_includes/js/main.js", 
-    "src/_includes/js/site.js"
-  ], { allowEmpty: true })
-  .pipe(uglify())
-  .pipe(concat("twain.min.js"))
-  .pipe(dest("_site/js/"));
+  return src(
+    [
+      "src/_includes/js/plugins.js",
+      "src/_includes/js/main.js",
+      "src/_includes/js/site.js",
+    ],
+    { allowEmpty: true }
+  )
+    .pipe(uglify())
+    .pipe(concat("twain.min.js"))
+    .pipe(dest("_site/js/"));
 }
 
+exports.mergeCss = mergeCss;
 exports.mergeCssLibs = mergeCssLibs;
 exports.siteJs = siteJs;
 exports.mergeLibs = mergeLibs;
-exports.default = parallel(siteJs, mergeLibs, mergeCssLibs);
+exports.default = parallel(mergeCss, siteJs, mergeLibs, mergeCssLibs);

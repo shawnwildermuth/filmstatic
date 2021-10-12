@@ -2386,14 +2386,14 @@ label {
 }
 
 /* Overlay */
-[data-image-overlay] {
+[data-overlay] {
   position: relative;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
 }
 
-[data-image-overlay]::before {
+[data-overlay]::before {
   position: absolute;
   left: 0;
   top: 0;
@@ -3335,13 +3335,13 @@ input.main-search-input:-ms-input-placeholder {
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .header--padding {
-    padding: 25px 0px;
+    padding: 0px 0px;
   }
 }
 
 @media (max-width: 767px) {
   .header--padding {
-    padding: 25px 0px;
+    padding: 0px 0px;
   }
 }
 
@@ -3796,7 +3796,7 @@ input.main-search-input:-ms-input-placeholder {
 .navbar--main nav ul li a {
   color: #ffffff;
   font-weight: 700;
-  padding: 50px 0;
+  padding: 20px 0;
   display: block;
   font-size: 17px;
   font-family: 'Bebas Neue';
@@ -4019,7 +4019,7 @@ input.main-search-input:-ms-input-placeholder {
   letter-spacing: 0.1em;
 }
 
-.slider--text h4::before {
+/* .slider--text h4::before {
   position: absolute;
   content: "";
   background: url(../img/shape/separate-line-1.png);
@@ -4030,7 +4030,7 @@ input.main-search-input:-ms-input-placeholder {
   left: -40px;
   top: 50%;
   transform: translateY(-50%);
-}
+} */
 
 .slider--text h2 {
   font-size: 120px;
@@ -4041,7 +4041,7 @@ input.main-search-input:-ms-input-placeholder {
 
 @media (max-width: 767px) {
   .slider--text h2 {
-    font-size: 80px;
+    font-size: 60px;
   }
 }
 
@@ -4055,6 +4055,13 @@ input.main-search-input:-ms-input-placeholder {
   display: block;
   font-family: 'Bebas Neue';
   margin-top: -12px;
+}
+
+@media (max-width: 767px) {
+  .slider--text>span {
+    font-size: 80px;
+    margin-top: 0px;
+  }
 }
 
 .slider--text .pos {
@@ -8165,16 +8172,17 @@ input.main-search-input:-ms-input-placeholder {
 }
 
 .footer--social ul li a {
-  font-size: 14px;
-  height: 45px;
-  width: 45px;
-  border: 2px solid #606060;
+  font-size: 25px;
+  height: 50px;
+  width: 50px;
+  border: 2px solid #777;
+  background-color: rgba(221, 221, 221, 0.2);
   display: inline-block;
   text-align: center;
-  line-height: 40px;
+  line-height: 45px;
   border-radius: 50%;
   margin-bottom: 10px;
-  color: #a1a1a1;
+  color: #bbb;
 }
 
 .footer--social ul li a:hover {

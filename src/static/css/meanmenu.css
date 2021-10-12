@@ -75,12 +75,12 @@ a.meanmenu-reveal {
 	display: block;
 	float: left;
 	margin: 0;
-	padding: 10px 5%;
+	padding: 15px 5%;
 	text-align: left;
 	text-decoration: none;
 	text-transform: uppercase;
 	width: 90%;
-	font-size: 12px;
+	font-size: 1.2rem;
 }
 
 .mean-container .mean-nav ul li li a {
@@ -128,7 +128,8 @@ a.meanmenu-reveal {
 	border-style: none none solid solid;
 	border-width: medium medium 1px 1px;
 	font-weight: 700;
-	height: 27px;
+  font-size: 32px !important;
+	height: 47px;
 	margin-top: 1px;
 	padding: 5px 12px;
 	position: absolute;
