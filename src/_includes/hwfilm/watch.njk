@@ -35,7 +35,7 @@
                                         data-parent="#watchProviders">
                 <div class="card-body d-flex">
                   <div class="card-text">
-                    <div class="flex flex-wrap">
+                    <div class="row">
                       {% for item in filmplatforms.hwfilm.northamerica.streaming %}
                         {{ platformWidget(item) }}
                       {% endfor %}
@@ -60,7 +60,7 @@
                                         data-parent="#watchProviders">
                 <div class="card-body">
                   <div class="card-text">
-                    <div class="flex flex-wrap">
+                    <div class="row">
                       {% for item in filmplatforms.hwfilm.northamerica.ondemand %}
                         {{ platformWidget(item) }}
                       {% endfor %}
@@ -85,7 +85,7 @@
                                         data-parent="#watchProviders">
                 <div class="card-body">
                   <div class="card-text">
-                    <div class="flex flex-wrap">
+                    <div class="row">
                       {% for item in filmplatforms.hwfilm.northamerica.cable %}
                         {{ platformWidget(item) }}
                       {% endfor %}
@@ -110,7 +110,7 @@
                                         data-parent="#watchProviders">
                 <div class="card-body">
                   <div class="card-text">
-                    <div class="flex flex-wrap">
+                    <div class="row">
                       {% for item in filmplatforms.hwfilm.northamerica.dvd %}
                         {{ platformWidget(item) }}
                       {% endfor %}
@@ -135,7 +135,7 @@
                                         data-parent="#watchProviders">
                 <div class="card-body">
                   <div class="card-text">
-                    <div class="flex flex-wrap">
+                    <div class="row">
                       {% for platform in filmplatforms.hwfilm.international.ondemand %}
                         {{ internationalWidget(platform) }}
                       {% endfor %}

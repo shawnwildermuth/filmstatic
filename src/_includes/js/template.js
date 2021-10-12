@@ -218,7 +218,7 @@
     autoplay: false,
     autoplaySpeed: false,
     infinite: false,
-    dots: false,
+    dots: true,
     fade: false,
     arrows: false,
     slidesToShow: 4,
@@ -242,8 +242,8 @@
         settings: {
           slidesToShow: 2,
           slidesToScroll: 2,
-          arrows: true,
-          dots: false,
+          arrows: false,
+          dots: true,
         },
       },
       {
@@ -251,8 +251,8 @@
         settings: {
           slidesToShow: 3,
           slidesToScroll: 1,
-          arrows: true,
-          dots: false,
+          arrows: false,
+          dots: true,
         },
       },
       // You can unslick at a given breakpoint now by adding:
@@ -266,9 +266,9 @@
     speed: 500,
     autoplay: false,
     autoplaySpeed: false,
-    dots: false,
+    dots: true,
     fade: false,
-    arrows: true,
+    arrows: false,
     infinite: false,
     prevArrow:
       "<i class='common-arrow common-arrow--prev top--arrow top--arrow--two top--arrow--prev fal fa-2x fa-angle-left'></i>",
@@ -283,14 +283,14 @@
           slidesToShow: 2,
           slidesToScroll: 1,
           infinite: false,
-          dots: false,
+          dots: true,
         },
       },
       {
         breakpoint: 1024,
         settings: {
           slidesToShow: 1,
-          arrows: false,
+          dots: true,
           slidesToScroll: 1,
         },
       },
