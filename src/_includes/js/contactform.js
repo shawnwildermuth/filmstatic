@@ -19,7 +19,13 @@ export default function () {
 
   if (contactForm) {
     const theForm = new Pristine(contactForm, config);
-    const fields = [document.getElementById("fullName"), document.getElementById("email"), document.getElementById("phone"), document.getElementById("subject"), document.getElementById("body")];
+    const fields = [
+      document.getElementById("fullName"), 
+      document.getElementById("email"), 
+      document.getElementById("phone"), 
+      document.getElementById("subject"), 
+      document.getElementById("msg")
+    ];
     const status = document.getElementById("status");
     function setStatus(msg) {
       status.innerText = msg;
