@@ -10,7 +10,7 @@
       "terminal.background": "#222",
       "terminal.foreground": "#eee",
     },
-    "workbench.colorTheme": "Github Light Theme",
+    "workbench.colorTheme": "GitHub Plus",
     "liveServer.settings.multiRootWorkspaceName": "filmstatic"
   }
 }

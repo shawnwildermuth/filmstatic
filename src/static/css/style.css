@@ -6008,7 +6008,7 @@ input.main-search-input:-ms-input-placeholder {
   transform: translateY(-50%);
   right: 0;
   left: 0;
-  z-index: 12345;
+  z-index: 1000;
 }
 
 .video--content--two a {
