@@ -1,8 +1,9 @@
 {
   "baseURL": "https://twainfilms.com",
+  "url": "https://twainfilms.com",
   "author": "Twain Films LLC",
-  "description": "",
-  "title": "Twain Films ",
+  "description": "A Film Company that produces Documentaries including \"Hello World\" and \"Don't Worry, I'm Fine\"",
+  "title": "Twain Films",
   "language": "en",
   "social": [
     {
