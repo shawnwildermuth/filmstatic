@@ -79,14 +79,8 @@ function siteJs() {
     .pipe(dest("_site/js/"));
 }
 
-function flags() {
-  return src("node_modules/flagpack-core/svg/s/**/*.*")
-         .pipe(dest("_site/flags/"));
-}
-
 exports.mergeCss = mergeCss;
 exports.mergeCssLibs = mergeCssLibs;
 exports.siteJs = siteJs;
 exports.mergeLibs = mergeLibs;
-exports.flags = flags;
-exports.default = parallel(mergeCss, siteJs, mergeLibs, mergeCssLibs, flags);
+exports.default = parallel(mergeCss, siteJs, mergeLibs, mergeCssLibs);

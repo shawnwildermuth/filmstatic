@@ -32,7 +32,7 @@ module.exports = function (eleventyConfig) {
   )
 
   // STATIC FILES
-  const staticFiles = [ "css", "img", "fonts", "flags", {"icons": "/"}];
+  const staticFiles = [ "css", "img", "fonts", {"icons": "/"}];
   for (let i = 0; i < staticFiles.length; i++) {
     const path = staticFiles[i];
     if (typeof path === "string") {
@@ -43,6 +43,8 @@ module.exports = function (eleventyConfig) {
       eleventyConfig.addPassthroughCopy({ [`src/static/${key}`]: value });
     }
   }
+
+  eleventyConfig.addPassthroughCopy({ [`node_modules/flagpack-core/svg/s/`]: "flags"})
 
   // TRANSFORM -- Minify HTML Output
   eleventyConfig.addTransform("htmlmin", function(content, outputPath) {
