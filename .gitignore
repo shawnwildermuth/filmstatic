@@ -108,3 +108,7 @@ dist
 
 # TernJS port file
 .tern-port
+mute-stdout/index.js
+mute-stdout/LICENSE
+mute-stdout/package.json
+mute-stdout/README.md

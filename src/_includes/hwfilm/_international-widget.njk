@@ -1,5 +1,5 @@
 <div class="m-1 w-full sm:w-40 border rounded shadow-md text-center">
-  <img src="https://www.countryflags.io/{{ platform.countryCode }}/flat/64.png" alt="{{platform.country}}"/>
+  <img src="/flags/{{ platform.countryCode.toUpperCase() }}.svg" alt="{{platform.country}}"/>
   <div class="text-md font-semibold">{{ platform.country }}</div>
   <div class="flex justify-center">
     {% for key, value in platform.stores %}

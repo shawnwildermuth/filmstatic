@@ -44,6 +44,8 @@ module.exports = function (eleventyConfig) {
     }
   }
 
+  eleventyConfig.addPassthroughCopy({ [`node_modules/flagpack-core/svg/s/`]: "flags"})
+
   // TRANSFORM -- Minify HTML Output
   eleventyConfig.addTransform("htmlmin", function(content, outputPath) {
     if( outputPath && outputPath.endsWith(".html") ) {

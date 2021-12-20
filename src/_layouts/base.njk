@@ -1,28 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    {% include "head.njk" %}
-
+     {% include "head.njk" %}
   </head>
   <body>
 
-    {% include "header.njk" %}
+    <div id="prevent-flash" style="display: none;">
+      {% include "header.njk" %}
 
+      <!-- Main Wrapper -->
+      <main class="main-wrapper block">
+        {{ content | safe }}
+      </main>
+      <!-- Main Wrapper End -->
 
-    <!-- Main Wrapper -->
-    <main class="main-wrapper block">
-      {{ content | safe }}
-    </main>
-    <!-- Main Wrapper End -->
+      {% include "footer.njk" %}
 
-    {% include "footer.njk" %}
+      <!-- Scroll Top Button -->
+      <button class="scroll-top tran3s">
+        <i class="fal fa-angle-up"></i>
+      </button>
 
-    <!-- Scroll Top Button -->
-    <button class="scroll-top tran3s">
-      <i class="fal fa-angle-up"></i>
-    </button>
-
-    {% include "js.njk" %}
-
+      {% include "js.njk" %}
+    </div>
   </body>
+  <script defer>
+    document.getElementById("prevent-flash").style.display = "block";
+  </script>
 </html>
