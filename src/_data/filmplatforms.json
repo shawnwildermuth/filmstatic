@@ -19,7 +19,7 @@
         {
 
           "url": "https://play.google.com/store/movies/details/Hello_World?id=AW9V4VoyY5A.P",
-          "img": "/img/hwfilm/platforms/TVOD/google play-png.png",
+          "img": "/img/hwfilm/platforms/TVOD/google-play.png",
           "name": "Google Play"
         },
         {
@@ -75,7 +75,7 @@
         },
         {
           "url": "",
-          "img": "/img/hwfilm/platforms/VOD/Frontier Communications-png.png",
+          "img": "/img/hwfilm/platforms/VOD/frontier-communications.png",
           "name": "Frontier"
         },
         {
