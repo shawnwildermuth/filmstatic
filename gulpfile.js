@@ -8,11 +8,6 @@ const rename = require("gulp-rename");
 function mergeLibs() {
   const libs = [
     "vendor/jquery-1.12.4.min.js",
-    "fontawesomepro/fontawesome.min.js",
-    "fontawesomepro/regular.min.js",
-    "fontawesomepro/light.min.js",
-    "fontawesomepro/solid.min.js",
-    "fontawesomepro/brands.min.js",
     "popper.min.js",
     "bootstrap.min.js",
     "imagesloaded.pkgd.min.js",

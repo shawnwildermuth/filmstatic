@@ -521,7 +521,7 @@
 
         {
           "country": "United Kingdom",
-          "countryCode": "gb",
+          "countryCode": "GB-UKM",
           "stores": {
             "iTunes": "https://itunes.apple.com/gb/movie/hello-world/id1554132666?ls=1",
             "Google": "https://play.google.com/store/movies/details/Hello_World?id=MacmnYUncQc.P&hl=en&gl=gb"
