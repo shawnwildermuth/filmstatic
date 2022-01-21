@@ -125,8 +125,8 @@
     margin: 0,
     items: 1,
     navText: [
-      '<i class="fa fa-angle-left"></i>',
-      '<i class="fa fa-angle-right"></i>',
+      '<i class="fas fa-angle-left"></i>',
+      '<i class="fas fa-angle-right"></i>',
     ],
     nav: true,
     dots: false,
