@@ -1,7 +1,6 @@
 .env
 public/
 _site/
-package-lock.json
 template/
 
 # Logs
