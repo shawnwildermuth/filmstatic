@@ -1,6 +1,6 @@
 (function ($) {
   "use strict";
-  
+
   // data - background
   $("[data-background]").each(function () {
     $(this).css(
@@ -115,9 +115,11 @@
   });
 
   /* magnificPopup video view */
-  $(".popup-video").not("[data-cancel]").magnificPopup({
-    type: "iframe",
-  });
+  $(".popup-video")
+    .not("[data-cancel]")
+    .magnificPopup({
+      type: "iframe"
+    });
 
   // owlCarousel
   $(".owl-carousel").owlCarousel({
@@ -173,7 +175,7 @@
   $("#mobile-menu").meanmenu({
     meanMenuContainer: ".mobile-menu",
     meanScreenWidth: "800",
-    meanMenuCloseSize: "24px"
+    meanMenuCloseSize: "24px",
   });
 
   // Header Sticky
@@ -234,7 +236,7 @@
           slidesToShow: 1,
           slidesToScroll: 1,
           arrows: false,
-          dots: true
+          dots: true,
         },
       },
       {
