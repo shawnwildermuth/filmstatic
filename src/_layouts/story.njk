@@ -14,7 +14,7 @@ layout: base.njk
             <div class="post-meta mb-15">
               <span>
                 <i class="fas fa-calendar"></i>
-                {{ publishedDate }}
+                {{ publishedDate | formatDate }}
               </span>
               <span>
                 <i class="fas fa-user"></i>
@@ -39,7 +39,7 @@ layout: base.njk
                 </div> #}
               </div>
               <div class="col-xl-4 col-lg-4 col-md-4 mb-15">
-                <div class="blog-share-icon text-left text-md-right">
+                <div class="blog-share-icon text-left text-md-right text-lg">
                   <span>Share: </span>
                   {% set absolutePostUrl %}{{ page.url | url | absoluteUrl(site.baseURL) }}{% endset %}
                   <a href="https://twitter.com/intent/tweet?text=From%20Twain%20Films:%20{{ title | urlencode }}%0A%0A{{ absolutePostUrl }}" target="_blank">

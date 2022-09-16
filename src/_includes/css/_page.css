@@ -99,5 +99,19 @@
     @apply w-72;
   }
 
+  .post a {
+    @apply text-orange-600 hover:text-orange-900 hover:underline;
+  }
 
+  .post ul {
+    @apply ml-8 text-lg;
+  }
+
+  .post ul li {
+    @apply list-disc mb-2;
+  }
+
+  .post p {
+    @apply leading-8;
+  }
 }

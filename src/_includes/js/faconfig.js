@@ -7,6 +7,7 @@ export default function () {
   library.add(fas.faPhone,
     fas.faEnvelope, 
     fas.faEnvelopeOpen, 
+    fas.faRss,
     fas.faMapMarkedAlt, 
     fas.faUser, 
     fas.faQuestion, 

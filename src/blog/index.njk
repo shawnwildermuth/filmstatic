@@ -6,7 +6,10 @@ layout: base.njk
   <div class="container">
     <div class="row">
       <div class="ml-4 w-full mt-8 lg:mt-4">
+      <div class="flex justify-between">
       <h1>Blog</h1>
+      <div><a href="https://twainfilms.com/feed.xml"><i class="fas fa-rss"></i> Subscribe</a></div>
+      </div>
       <hr />
       </div>
     </div>
@@ -22,7 +25,7 @@ layout: base.njk
                 <h4>
                   <a href="{{ blog.url }}">{{ blog.data.title }}</a>
                 </h4>
-                <span class="fw-700 theme-color text-uppercase">{{ blog.data.author }}</span>
+                <span class="fw-700 theme-color text-uppercase">{{ blog.data.author }} - {{ blog.data.publishedDate | formatDate }}</span>
                 <p>{{blog.data.description}}</p>
                 <a href="{{ blog.url}}" class="read--more">Read More</a>
               </div>
