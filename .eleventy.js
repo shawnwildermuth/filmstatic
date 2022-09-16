@@ -1,5 +1,5 @@
 const htmlmin = require("html-minifier");
-const markdownIt = require('markdown-it');
+const markdown = require('./utils/markdown');
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const filters = require("./utils/filters.js");
 
@@ -21,15 +21,7 @@ module.exports = function (eleventyConfig) {
   });
 
   // Markdown
-  eleventyConfig.setLibrary(
-    'md',
-    markdownIt({
-      html: true,
-      breaks: true,
-      linkify: true,
-      typographer: true
-    })
-  )
+  eleventyConfig.setLibrary('md', markdown);
 
   // STATIC FILES
   const staticFiles = [ "css", "img", "fonts", {"icons": "/"}];

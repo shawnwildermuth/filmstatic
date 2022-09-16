@@ -14,5 +14,6 @@
       "title": "IMDB",
       "url": "https://imdb.com/title/tt0120338"
     }
-  ]
+  ],
+  "fallbackBlogImage": "/img/imfine/child-window.jpg"
 }

@@ -1,0 +1,85 @@
+---
+layout: base.njk
+---
+<!-- Blog -->
+<section class="blog pt-130 pb-100">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8">
+        <article class="postbox post format-image mb-40">
+          <div class="postbox__thumb mb-35">
+            <img src="{{ cover_image if cover_image else site.fallbackBlogImage }}" alt="{{ title }}">
+          </div>
+          <div class="postbox__text bg-none">
+            <div class="post-meta mb-15">
+              <span>
+                <i class="fas fa-calendar"></i>
+                {{ publishedDate | formatDate }}
+              </span>
+              <span>
+                <i class="fas fa-user"></i>
+                {{ author}}
+              </span>
+              {# <span>
+        <a href="#">
+          <i class="far fa-comments"></i> Comments (03)</a>
+      </span> #}
+            </div>
+            <h3 class="blog-title">{{ title }}</h3>
+            <div class="post-text mb-20">
+              {{ content | safe }}
+            </div>
+            <div class="row mt-50">
+              <div class="col-xl-8 col-lg-8 col-md-8 mb-15">
+                {# <div class="blog-post-tag">
+                  <span>Releted Tags</span>
+                  <a href="#">organic</a>
+                  <a href="#">Foods</a>
+                  <a href="#">tasty</a>
+                </div> #}
+              </div>
+              <div class="col-xl-4 col-lg-4 col-md-4 mb-15">
+                <div class="blog-share-icon text-left text-md-right text-lg">
+                  <span>Share: </span>
+                  {% set absolutePostUrl %}{{ page.url | url | absoluteUrl(site.baseURL) }}{% endset %}
+                  <a href="https://twitter.com/intent/tweet?text=From%20Twain%20Films:%20{{ title | urlencode }}%0A%0A{{ absolutePostUrl }}" target="_blank">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                  <a href="mailto:?subject=Twain%20Films&body={{ title | urlencode }}%0A%0A{{ absolutePostUrl }}">
+                    <i class="fas fa-envelope"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+      <div class="col-lg-4">
+        <div class="blog--sidebar">
+          <div class="blog--widget mb-10">
+            <div class="blog--sidebar--box fix">
+              <div class="blog--sidebar--title mb-10">
+                <h3>Recent Stories</h3>
+              </div>
+              <div class="blog--sidebar--news">
+                {% for blog in collections.blog | take(5) %}
+                  {% if blog.data.title != title %}
+                  <div class="blog--news border-bottom pb-15 mb-15">
+                    <h5>
+                      <a href="blog.data.url">{{ blog.data.title }}</a>
+                    </h5>
+                    <span>
+                      <i class="fal fa-calendar-alt theme-color mr-10"></i>{{ blog.data.publishedDate }}</span>
+                  </div>
+                  {% endif %}
+                {% endfor %}
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Blog End -->
