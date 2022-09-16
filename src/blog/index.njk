@@ -1,29 +1,36 @@
 ---
-layout: blog.njk
+layout: base.njk
 ---
-{% for blog in collections.blog  %}
-<div class="blog--standard mb-50">
-  <div class="blog--standard--thumb w-[30rem]">
-    <a href="{{ blog.url }}"><img src="{{ cover_imaged if cover_imaged else site.fallbackBlogImage }}" alt="{{ blog.data.title }}"></a>
-  </div>
-  <div class="blog--standard--content">
-    <div class="blog--standard--meta">
-      <ul>
-        <li>
-          <i class="fas fa-user"></i>{{ blog.data.author }}</li>
-        <li>
-          <i class="fas fa-calendar"></i>{{ blog.data.publishedDate }}</li>
-        {# <li>
-          <i class="fal fa-comment"></i>Comments (05)</li> #}
-      </ul>
+<!-- Blog -->
+<section class="blog pt-130 pb-100">
+  <div class="container">
+    <div class="row">
+      <div class="ml-4 w-full mt-8 lg:mt-4">
+      <h1>Blog</h1>
+      <hr />
+      </div>
     </div>
-    <div class="blog--standard--text">
-      <h3 class="mb-15">
-        <a href="{{ blog.url }}">{{ blog.data.title }}</a>
-      </h3>
-      <p>{{ blog.data.description }}</p>
-      <a href="{{ blog.url }}" class="read--more">Read More</a>
+    <div class="row">
+      {% for blog in collections.blog | take(10) %}
+        <div class="col-lg-4 col-md-6 mb-8">
+          <div class="blog--block">
+            <div class="blog--thumb">
+              <a href="{{ blog.url }}"><img src="{{ blog.data.cover_imaged if blog.data.cover_imaged else site.fallbackBlogImage }}" alt="{{ blog.data.title }}"></a>
+            </div>
+            <div class="blog--content d-flex">
+              <div class="blog--text">
+                <h4>
+                  <a href="{{ blog.url }}">{{ blog.data.title }}</a>
+                </h4>
+                <span class="fw-700 theme-color text-uppercase">{{ blog.data.author }}</span>
+                <p>{{blog.data.description}}</p>
+                <a href="{{ blog.url}}" class="read--more">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
     </div>
   </div>
-</div>
-{% endfor %}
+</section>
+<!-- Blog End -->
