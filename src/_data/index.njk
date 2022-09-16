@@ -15,7 +15,7 @@ layout: base.njk
         <div class="col-lg-4 col-md-6 mb-8">
           <div class="blog--block">
             <div class="blog--thumb">
-              <a href="{{ blog.url }}"><img src="{{ blog.data.cover_imaged if blog.data.cover_imaged else site.fallbackBlogImage }}" alt="{{ blog.data.title }}"></a>
+              <a href="{{ blog.url }}"><img src="{{ blog.data.thumb_image if blog.data.thumb_image else site.fallbackBlogImage }}" alt="{{ blog.data.title }}"></a>
             </div>
             <div class="blog--content d-flex">
               <div class="blog--text">
