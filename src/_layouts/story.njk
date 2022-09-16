@@ -1,0 +1,57 @@
+---
+layout: blog.njk
+---
+<article class="postbox post format-image mb-40">
+  <div class="postbox__thumb mb-35">
+    <img src="{{ cover_imaged if cover_imaged else site.fallbackBlogImage }}" alt="{{ title }}">
+  </div>
+  <div class="postbox__text bg-none">
+    <div class="post-meta mb-15">
+      <span>
+        <i class="fas fa-calendar"></i>
+        {{ publishedDate }}
+      </span>
+      <span>
+          <i class="fas fa-user"></i> {{ author}}
+      </span>
+      {# <span>
+        <a href="#">
+          <i class="far fa-comments"></i> Comments (03)</a>
+      </span> #}
+    </div>
+    <h3 class="blog-title">{{ title }}</h3>
+    <div class="post-text mb-20">
+      {{ content | safe }}
+    </div>
+    <div class="row mt-50">
+      <div class="col-xl-8 col-lg-8 col-md-8 mb-15">
+        <div class="blog-post-tag">
+          <span>Releted Tags</span>
+          <a href="#">organic</a>
+          <a href="#">Foods</a>
+          <a href="#">tasty</a>
+        </div>
+      </div>
+      <div class="col-xl-4 col-lg-4 col-md-4 mb-15">
+        <div class="blog-share-icon text-left text-md-right">
+          <span>Share: </span>
+          <a href="#">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="#">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="#">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="#">
+            <i class="fab fa-google-plus-g"></i>
+          </a>
+          <a href="#">
+            <i class="fab fa-vimeo-v"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</article>

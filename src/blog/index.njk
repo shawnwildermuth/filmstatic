@@ -1,0 +1,29 @@
+---
+layout: blog.njk
+---
+{% for blog in collections.blog  %}
+<div class="blog--standard mb-50">
+  <div class="blog--standard--thumb w-[30rem]">
+    <a href="{{ blog.url }}"><img src="{{ cover_imaged if cover_imaged else site.fallbackBlogImage }}" alt="{{ blog.data.title }}"></a>
+  </div>
+  <div class="blog--standard--content">
+    <div class="blog--standard--meta">
+      <ul>
+        <li>
+          <i class="fas fa-user"></i>{{ blog.data.author }}</li>
+        <li>
+          <i class="fas fa-calendar"></i>{{ blog.data.publishedDate }}</li>
+        {# <li>
+          <i class="fal fa-comment"></i>Comments (05)</li> #}
+      </ul>
+    </div>
+    <div class="blog--standard--text">
+      <h3 class="mb-15">
+        <a href="{{ blog.url }}">{{ blog.data.title }}</a>
+      </h3>
+      <p>{{ blog.data.description }}</p>
+      <a href="{{ blog.url }}" class="read--more">Read More</a>
+    </div>
+  </div>
+</div>
+{% endfor %}

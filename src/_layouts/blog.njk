@@ -1,0 +1,37 @@
+---
+layout: "base.njk"
+---
+<!-- Blog -->
+<section class="blog pt-130 pb-100">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8">
+        {{ content | safe }}
+      </div>
+      <div class="col-lg-4">
+        <div class="blog--sidebar">
+          <div class="blog--widget mb-10">
+            <div class="blog--sidebar--box fix">
+              <div class="blog--sidebar--title mb-10">
+                <h3>Recent Stories</h3>
+              </div>
+              <div class="blog--sidebar--news">
+                {% for blog in collections.blog | take(5) %}
+                <div class="blog--news border-bottom pb-15 mb-15">
+                  <h5>
+                    <a href="blog.data.url">{{ blog.data.title }}</a>
+                  </h5>
+                  <span>
+                    <i class="fal fa-calendar-alt theme-color mr-10"></i>{{ blog.data.publishedDate }}</span>
+                </div>
+                {% endfor %}
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Blog End -->

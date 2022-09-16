@@ -16,6 +16,9 @@ module.exports = {
 
     return data;
   },
+  json: (data) => {
+    return JSON.stringify(data);
+  },
   skip: (data, num) => {
     if (data instanceof Array) {
       if (!num) num = 25;
