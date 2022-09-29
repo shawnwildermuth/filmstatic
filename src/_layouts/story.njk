@@ -62,7 +62,7 @@ layout: base.njk
                 <h3>Recent Stories</h3>
               </div>
               <div class="blog--sidebar--news">
-                {% for blog in collections.blog | take(5) %}
+                {% for blog in collections.blog | take(5) | reverse %}
                   {% if blog.data.title != title %}
                   <div class="blog--news border-bottom pb-15 mb-15">
                     <h5>
