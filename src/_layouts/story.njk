@@ -69,7 +69,7 @@ layout: base.njk
                       <a href="blog.data.url">{{ blog.data.title }}</a>
                     </h5>
                     <span>
-                      <i class="fal fa-calendar-alt theme-color mr-10"></i>{{ blog.data.publishedDate }}</span>
+                      <i class="fas fa-calendar theme-color mr-10"></i>{{ blog.data.publishedDate | formatDate }}</span>
                   </div>
                   {% endif %}
                 {% endfor %}

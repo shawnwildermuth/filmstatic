@@ -1,6 +1,6 @@
 ---
 title: Current State of "Don't Worry, I'm Fine"
-publishedDate: 2022/09/16
+publishedDate: 2022-09-16
 description: |
   The "Don't Worry, I'm Fine" film is a very personal project. When I started making films I knew this film was something I must do. Finding men who've had the shared experience of recovering from childhood sexual trauma has been a healing journey. 
 author: Shawn Wildermuth
