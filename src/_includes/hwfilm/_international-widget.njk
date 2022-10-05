@@ -1,17 +1,17 @@
-<div class="m-1 w-full sm:w-40 border rounded shadow-md text-center">
+<div class="t-m-1 t-w-full sm:t-w-40 t-border t-rounded t-shadow-md t-text-center">
   <img src="/flags/{{ platform.countryCode.toUpperCase() }}.svg" alt="{{platform.country}}"/>
   <div class="text-md font-semibold">{{ platform.country }}</div>
-  <div class="flex justify-center">
+  <div class="t-flex t-justify-center">
     {% for key, value in platform.stores %}
-      <span class="mx-2 inline">
-        <a class="text-yellow-800" href="{{ value }}">
+      <span class="t-mx-2 t-inline">
+        <a class="t-text-yellow-800" href="{{ value }}">
           {% if "iTunes" in key %}
             <i class="fab fa-apple"></i>
           {% else %}
             <i class="fab fa-google"></i>
           {% endif %}
         </a>
-        <a class="underline text-yellow-800" href="{{ value }}">{{ key }}</a>
+        <a class="t-underline t-text-yellow-800" href="{{ value }}">{{ key }}</a>
       </span>
     {% endfor %}
   </div>

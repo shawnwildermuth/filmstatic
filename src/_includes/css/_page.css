@@ -15,7 +15,7 @@
   }
 
   .team-bio {
-    @apply mt-1 bg-black p-2 text-gray-400;
+    @apply t-mt-1 t-bg-black t-p-2 t-text-gray-400;
   }
 
   .project--content .right-button {
@@ -56,11 +56,11 @@
   }
 
   .navbar--main nav {
-    @apply mr-16;
+    @apply t-mr-16;
   }
 
   .navbar--main nav ul li a {
-    @apply text-2xl;
+    @apply t-text-2xl;
   }
 
   .read--more--plain {
@@ -77,7 +77,7 @@
   }
 
   .feature--wrapper:hover svg {
-    @apply filter invert;
+    @apply t-filter t-invert;
   }
 
   .form--input--icon {
@@ -88,30 +88,30 @@
 
   .form-box.form-box-error-border input,
   .form-box.form-box-error-border textarea {
-    @apply bg-yellow-50;
+    @apply t-bg-yellow-50;
   }
 
   .form-box-error-message {
-    @apply text-red-600 italic font-serif;
+    @apply t-text-red-600 t-italic t-font-serif;
   }
 
   .navbar--main nav ul li:hover ul.submenu {
-    @apply w-72;
+    @apply t-w-72;
   }
 
   .post a {
-    @apply text-orange-600 hover:text-orange-900 hover:underline;
+    @apply t-text-orange-600 hover:t-text-orange-900 hover:t-underline;
   }
 
   .post ul {
-    @apply ml-8 text-lg;
+    @apply t-ml-8 t-text-lg;
   }
 
   .post ul li {
-    @apply list-disc mb-2;
+    @apply t-list-disc t-mb-2;
   }
 
   .post p {
-    @apply leading-8;
+    @apply t-leading-8;
   }
 }

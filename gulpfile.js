@@ -11,7 +11,7 @@ function mergeLibs() {
     "popper.min.js",
     "bootstrap.min.js",
     "imagesloaded.pkgd.min.js",
-    "isotope.pkgd.min.js",
+    //"isotope.pkgd.min.js",
     "jquery.meanmenu.min.js",
     "jquery.counterup.min.js",
     "jquery.waypoints.min.js",

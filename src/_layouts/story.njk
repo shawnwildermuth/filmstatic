@@ -10,7 +10,7 @@ layout: base.njk
           <div class="postbox__thumb mb-35">
             <img src="{{ cover_image if cover_image else site.fallbackBlogImage }}" alt="{{ title }}">
           </div>
-          <div class="postbox__text bg-none">
+          <div class="postbox__text t-bg-none">
             <div class="post-meta mb-15">
               <span>
                 <i class="fas fa-calendar"></i>
@@ -56,20 +56,20 @@ layout: base.njk
       </div>
       <div class="col-lg-4">
         <div class="blog--sidebar">
-          <div class="blog--widget mb-10">
+          <div class="blog--widget t-mb-10">
             <div class="blog--sidebar--box fix">
-              <div class="blog--sidebar--title mb-10">
+              <div class="blog--sidebar--title t-mb-10">
                 <h3>Recent Stories</h3>
               </div>
               <div class="blog--sidebar--news">
                 {% for blog in collections.blog | take(5) | reverse %}
                   {% if blog.data.title != title %}
-                  <div class="blog--news border-bottom pb-15 mb-15">
+                  <div class="blog--news border-bottom t-pb-15 t-mb-15">
                     <h5>
                       <a href="blog.data.url">{{ blog.data.title }}</a>
                     </h5>
                     <span>
-                      <i class="fas fa-calendar theme-color mr-10"></i>{{ blog.data.publishedDate | formatDate }}</span>
+                      <i class="fas fa-calendar theme-color t-mr-10"></i>{{ blog.data.publishedDate | formatDate }}</span>
                   </div>
                   {% endif %}
                 {% endfor %}

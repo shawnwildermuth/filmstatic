@@ -1,4 +1,5 @@
 module.exports = {
+  prefix: "t-",
   content: [
     "./src/**/*.html",
     "./src/**/*.njk",
