@@ -19,6 +19,7 @@ export default function () {
     fas.faStar,
     fas.faClock,
     fas.faCalendar, 
+    fas.faSquare,
     fab.faImdb,
     fab.faTwitter,
     fab.faFacebookF,
@@ -27,6 +28,7 @@ export default function () {
     fab.faGoogle,
     fab.faSpotify,
     fab.faDeezer,
-    fab.faAmazon);
+    fab.faAmazon,
+    fab.faMastodon);
   dom.i2svg();
 }
