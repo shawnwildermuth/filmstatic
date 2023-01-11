@@ -1,7 +1,7 @@
 @tailwind base;
 
 @import url('https://fonts.googleapis.com/css2?family=Newsreader:wght@200&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
 
 @tailwind components;
 
@@ -41,15 +41,9 @@
     font-weight: 200;
   }
 
-  .imfine-font {
-    font-family: 'Caveat', cursive;
-    font-weight: 400;
+  .manenough-font {
+    font-family: 'Special Elite', cursive;
   }
-
-  .imfine-font.heavy {
-    font-weight: 700;
-  }
-
 
   .festival-list img {
     align-self: center;

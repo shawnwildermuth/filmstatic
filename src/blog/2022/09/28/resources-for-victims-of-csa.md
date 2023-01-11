@@ -7,7 +7,7 @@ author: Shawn Wildermuth
 cover_image: "https://wilderminds.blob.core.windows.net/img/2022/09/28/cover.jpg"
 thumb_image: "https://wilderminds.blob.core.windows.net/img/2022/09/28/_cover.jpg"
 tags: 
-  - imfine
+  - manenough
   - documentary
   - film
   - victims
