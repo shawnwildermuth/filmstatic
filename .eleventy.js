@@ -13,7 +13,7 @@ module.exports = function (eleventyConfig) {
   });
 
   // shortcode to render markdown from string => {{ STRING | markdown | safe }}
-  eleventyConfig.addFilter('markdown', function(value) {
+  eleventyConfig.addFilter('markdown', function (value) {
     let markdown = require('markdown-it')({
       html: true
     });
@@ -24,7 +24,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.setLibrary('md', markdown);
 
   // STATIC FILES
-  const staticFiles = [ "css", "img", "fonts", {"icons": "/"}];
+  const staticFiles = ["css", "img", "fonts", "dls", { "icons": "/" }];
   for (let i = 0; i < staticFiles.length; i++) {
     const path = staticFiles[i];
     if (typeof path === "string") {
@@ -36,11 +36,11 @@ module.exports = function (eleventyConfig) {
     }
   }
 
-  eleventyConfig.addPassthroughCopy({ [`node_modules/flagpack-core/svg/s/`]: "flags"})
+  eleventyConfig.addPassthroughCopy({ [`node_modules/flagpack-core/svg/s/`]: "flags" })
 
   // TRANSFORM -- Minify HTML Output
-  eleventyConfig.addTransform("htmlmin", function(content, outputPath) {
-    if( outputPath && outputPath.endsWith(".html") ) {
+  eleventyConfig.addTransform("htmlmin", function (content, outputPath) {
+    if (outputPath && outputPath.endsWith(".html")) {
       let minified = htmlmin.minify(content, {
         useShortDoctype: true,
         removeComments: true,
