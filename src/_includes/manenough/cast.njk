@@ -1,0 +1,88 @@
+<!-- Team -->
+<section class="team pt-130 pb-100 t-bg-gray-400">
+  <div class="container">
+    <div>
+      <h2>Featuring these brave men:</h2>
+    </div>
+    <div class="row">
+      {% for feature in manenough.featuring %}
+        <div class="col-lg-6 mb-30">
+          <div class="team--block position-relative">
+            <div class="team--thumb--h2 position-relative">
+              {% if feature.headshot %}
+                <img src="/img/manenough/headshots/{{ feature.headshot }}" alt="{{ feature.name}}">
+              {% else %}
+                <img src="/img/team/team-thumb-11.jpg" alt="">
+              {% endif %}
+              {% if feature.links | length %}
+                <div class="social--add">
+                  <i class="fa fa-plus"></i>
+                  <div class="team--social--h2">
+                    <ul>
+                      {% for link in feature.links %}
+                        <li>
+                          <a href="{{ link.url }}">
+                            <i class="{{ link.icon }}"></i>
+                          </a>
+                        </li>
+                      {% endfor %}
+                    </ul>
+                  </div>
+                </div>
+              {% endif %}
+            </div>
+            <div class="team--content--h2 text-center pt-25">
+              <div class="team--info">
+                <h5 class="t-text-orange-700 t-text-2xl">{{ feature.name }}</h5>
+                <p class="fw-600 t-text-gray-800 t-leading-tight t-font-normal t-line-clamp-4 t-cursor-pointer hover:t-line-clamp-none">{{ feature.bio }}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+    <div>
+      <h2>The Professionals:</h2>
+    </div>
+    <div class="row">
+      {% for person in manenough.also %}
+        <div class="col-lg-4 mb-30">
+          <div class="team--block position-relative">
+            <div class="team--thumb--h2 position-relative">
+              {% if person.headshot %}
+                <img src="/img/manenough/headshots/{{ person.headshot }}" alt="{{ feature.name}}">
+              {% else %}
+                <img src="/img/team/team-thumb-11.jpg" alt="">
+              {% endif %}
+
+              {% if person.links | length %}
+                <div class="social--add">
+                  <i class="fa fa-plus"></i>
+                  <div class="team--social--h2">
+                    <ul>
+                      {% for link in person.links %}
+                        <li>
+                          <a href="{{ link.url }}">
+                            <i class="{{ link.icon }}"></i>
+                          </a>
+                        </li>
+                      {% endfor %}
+                    </ul>
+                  </div>
+                </div>
+              {% endif %}
+            </div>
+            <div class="team--content--h2 text-center pt-25">
+              <div class="team--info">
+                <h5 class="t-text-orange-700 t-text-2xl">{{ person.name }}</h5>
+                <p class="t-text-white t-text-lg">{{ person.title }}</p>
+                <p class="fw-600 t-text-gray-800 t-leading-tight t-font-normal">{{ person.bio }}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+<!-- Team end -->

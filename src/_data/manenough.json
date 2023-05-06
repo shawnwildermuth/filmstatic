@@ -1,0 +1,103 @@
+{
+  "featuring": [
+    {
+      "name": "Mark Godoy, Jr.",
+      "shortName": "Mark",
+      "headshot": "mark.jpg",
+      "bio": "",
+      "links": []
+    },
+    {
+      "name": "Ted Gonzaga",
+      "shortName": "Ted",
+      "headshot": "ted.jpg",
+      "bio": "",
+      "links": []
+    },
+    {
+      "name": "Adam Hawkins",
+      "shortName": "Adam",
+      "headshot": "adam.jpg",
+      "bio": "",
+      "links": []
+    },
+    {
+      "name": "Ben Holman",
+      "shortName": "Ben",
+      "headshot": "ben.jpg",
+      "bio": "Ben Holman is an investigator for cps, a member of the RAINN Speakers Bureau, and a survivor of sexual abuse. He hopes to use his story to help other men find hope and victory over their own stories.",
+      "links": []
+    },
+    {
+      "name": "Jordan Masciangelo",
+      "shortName": "Jordan",
+      "headshot": "jordan.jpg",
+      "bio": "By focusing on healing and community, Jordan has spent the past 12 years successfully transforming his own experiences of sexual violence and trafficking into powerful inspiration and advocacy for other male survivors as well as trauma-informed speaking engagements, training, and consulting services. ",
+      "links": []
+    },
+    {
+      "name": "Anthony Rivers",
+      "shortName": "Anthony",
+      "headshot": "anthony.jpg",
+      "bio": "",
+      "links": []
+    },
+    {
+      "name": "Shawn Wildermuth",
+      "shortName": "Shawn",
+      "headshot": "shawn.jpg",
+      "bio": "",
+      "links": [
+        {
+          "icon": "fab fa-twitter",
+          "url": "https://twitter.com/@shawnwildermuth"
+        },
+        {
+          "icon": "fab fa-youtube",
+          "url": "https://youtube.com/c/swildermuth"
+        },
+        {
+          "icon": "fas fa-globe",
+          "url": "https://wildermuth.com"
+        }
+      ]
+    },
+    {
+      "name": "Thom Young",
+      "shortName": "Mark",
+      "headshot": "thom.jpg",
+      "bio": "",
+      "links": []
+    }
+  ],
+  "also": [
+    {
+      "name": "Howard Fradkin",
+      "bio": "Howard Fradkin, Ph.D., LICDC has counseled over 1000 male survivors in individual, couples, group psychotherapy and weekend workshops over the course of his 39-year career as a Psychologist.",
+      "title": "Facilitator Emeritus, MenHealing.org",
+      "headshot": "howardfradkin.jpg",
+      "links": [
+        {
+          "icon": "fab fa-twitter",
+          "url": "https://twitter.com/@DrHFradkin"
+        },
+        {
+          "icon": "fas fa-globe",
+          "url": "https://malesurvivor.org/"
+        }
+      ]
+    },
+    {
+      "name": "Mike Lew",
+      "bio": "A psychotherapist and group therapy leader, Mike Lew has worked with thousands of men and women in their healing from the effects of childhood sexual abuse, rape, physical violence, emotional abuse and neglect. Mike has authored two books on the topic of childhood sexual abuse.",
+      "title": "The Next Step Counseling and Training",
+      "headshot": "mikelew.jpg",
+      "links": [
+        {
+          "icon": "fas fa-globe",
+          "url": "https://nextstepcounseling.org/"
+        }
+      ]
+    }
+  ]
+}

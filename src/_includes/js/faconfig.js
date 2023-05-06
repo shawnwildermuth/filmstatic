@@ -5,20 +5,22 @@ import { fab } from '@fortawesome/free-brands-svg-icons'
 export default function () {
   config.autoReplaceSvg = "nest";
   library.add(fas.faPhone,
-    fas.faEnvelope, 
-    fas.faEnvelopeOpen, 
+    fas.faEnvelope,
+    fas.faEnvelopeOpen,
     fas.faRss,
-    fas.faMapMarkedAlt, 
-    fas.faUser, 
-    fas.faQuestion, 
-    fas.faPen, 
-    fas.faPlay, 
-    fas.faAngleRight, 
-    fas.faAngleDown, 
-    fas.faAngleUp, 
+    fas.faMapMarkedAlt,
+    fas.faGlobe,
+    fas.faUser,
+    fas.faQuestion,
+    fas.faPen,
+    fas.faPlay,
+    fas.faPlus,
+    fas.faAngleRight,
+    fas.faAngleDown,
+    fas.faAngleUp,
     fas.faStar,
     fas.faClock,
-    fas.faCalendar, 
+    fas.faCalendar,
     fas.faSquare,
     fab.faImdb,
     fab.faTwitter,
@@ -29,6 +31,7 @@ export default function () {
     fab.faSpotify,
     fab.faDeezer,
     fab.faAmazon,
-    fab.faMastodon);
+    fab.faMastodon,
+    fab.faYoutube);
   dom.i2svg();
 }
