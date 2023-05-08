@@ -4,8 +4,17 @@
       "name": "Mark Godoy, Jr.",
       "shortName": "Mark",
       "headshot": "mark.jpg",
-      "bio": "",
-      "links": []
+      "bio": "Mark is a visual artist, motion designer, and advocate for victims of childhood sexual abuse. Through his story and his art, he strives to inspire survivors around the world to embrace healing and break free from the negative stigma surrounding sexual abuse.",
+      "links": [
+        {
+          "icon": "fab fa-instagram",
+          "url": "https://www.instagram.com/markgodoyjr/"
+        },
+        {
+          "icon": "fas fa-globe",
+          "url": "https://www.markgodoyjr.com"
+        }
+      ]
     },
     {
       "name": "Ted Gonzaga",
