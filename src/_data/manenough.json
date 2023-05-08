@@ -39,14 +39,23 @@
       "name": "Anthony Rivers",
       "shortName": "Anthony",
       "headshot": "anthony.jpg",
-      "bio": "",
-      "links": []
+      "bio": "Through support and resilience, Anthony has overcome numerous life challenges and now uses his experiences to inspire others as a public speaker, inclusion consultant, and mental health advocate.",
+      "links": [
+        {
+          "icon": "fab fa-linkedin",
+          "url": "https://www.linkedin.com/in/anthonyrivers503/"
+        },
+        {
+          "icon": "fab fa-youtube",
+          "url": "https://www.youtube.com/@Cloudnhyne"
+        }
+      ]
     },
     {
       "name": "Shawn Wildermuth",
       "shortName": "Shawn",
       "headshot": "shawn.jpg",
-      "bio": "Shawn is a filmmaker who is specializing in very personal documentaries. From the start of his filmmaking career, he knew that he wanted to tell the story of his shared experience of childhood sexual abuse. `Man Enough to Heal` is the culmination of that goal.",
+      "bio": "Shawn is a filmmaker who makes very personal documentaries. He knew that he wanted to tell the story of his shared experience of childhood sexual abuse. `Man Enough to Heal` is the culmination of that goal.",
       "links": [
         {
           "icon": "fab fa-twitter",

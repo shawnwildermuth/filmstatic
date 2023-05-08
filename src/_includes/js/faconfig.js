@@ -32,6 +32,7 @@ export default function () {
     fab.faDeezer,
     fab.faAmazon,
     fab.faMastodon,
-    fab.faYoutube);
+    fab.faYoutube,
+    fab.faLinkedin);
   dom.i2svg();
 }
