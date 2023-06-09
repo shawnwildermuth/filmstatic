@@ -1,0 +1,93 @@
+<!-- Team -->
+<a name="cast"></a>
+<section class="team pt-130 pb-100 t-bg-slate-900 t-text-white">
+  <div class="container">
+    <div>
+      <h2 class="t-text-orange-500">Featuring these brave men:</h2>
+    </div>
+    <div class="row">
+      <div class="t-grid t-grid-cols-1 md:t-grid-cols-2 lg:t-grid-cols-3 t-gap-4">
+        {% for feature in manenough.featuring %}
+          <div class="mb-30">
+            <div class="team--block position-relative">
+              <div class="team--thumb--h2 position-relative">
+                {% if feature.headshot %}
+                  <img src="/img/manenough/headshots/{{ feature.headshot }}" alt="{{ feature.name}}">
+                {% else %}
+                  <img src="/img/team/team-thumb-11.jpg" alt="">
+                {% endif %}
+                {% if feature.links | length %}
+                  <div class="social--add">
+                    <i class="fa fa-plus"></i>
+                    <div class="team--social--h2">
+                      <ul>
+                        {% for link in feature.links %}
+                          <li>
+                            <a href="{{ link.url }}">
+                              <i class="{{ link.icon }}"></i>
+                            </a>
+                          </li>
+                        {% endfor %}
+                      </ul>
+                    </div>
+                  </div>
+                {% endif %}
+              </div>
+              <div class="team--content--h2 text-center pt-25">
+                <div class="team--info">
+                  <h5 class="t-text-orange-500 t-text-2xl">{{ feature.name }}</h5>
+                  <p class="fw-600 t-leading-tight t-text-lg md:t-text-base t-line-clamp-0 md:t-line-clamp-5 t-cursor-pointer hover:t-line-clamp-none">{{ feature.bio }}</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+    <div>
+      <h2 class="t-text-orange-500">The Professionals:</h2>
+    </div>
+    <div class="row">
+      <div class="t-grid t-grid-cols-1 md:t-grid-cols-2 lg:t-grid-cols-3 t-gap-4">
+        {% for person in manenough.also %}
+          <div class="mb-30">
+            <div class="team--block position-relative">
+              <div class="team--thumb--h2 position-relative">
+                {% if person.headshot %}
+                  <img src="/img/manenough/headshots/{{ person.headshot }}" alt="{{ feature.name}}">
+                {% else %}
+                  <img src="/img/team/team-thumb-11.jpg" alt="">
+                {% endif %}
+
+                {% if person.links | length %}
+                  <div class="social--add">
+                    <i class="fa fa-plus"></i>
+                    <div class="team--social--h2">
+                      <ul>
+                        {% for link in person.links %}
+                          <li>
+                            <a href="{{ link.url }}">
+                              <i class="{{ link.icon }}"></i>
+                            </a>
+                          </li>
+                        {% endfor %}
+                      </ul>
+                    </div>
+                  </div>
+                {% endif %}
+              </div>
+              <div class="team--content--h2 text-center pt-25">
+                <div class="team--info">
+                  <h5 class="t-text-orange-500 t-text-2xl">{{ person.name }}</h5>
+                  <p class="t-text-xl t-text-white">{{ person.title }}</p>
+                  <p class="fw-600 t-leading-tight t-text-lg md:t-text-base">{{ person.bio }}</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Team end -->

@@ -1,0 +1,121 @@
+{
+  "featuring": [
+    {
+      "name": "Mark Godoy, Jr.",
+      "shortName": "Mark",
+      "headshot": "mark.jpg",
+      "bio": "Mark is a visual artist, motion designer, and advocate for victims of childhood sexual abuse. Through his story and his art, he strives to inspire survivors around the world to embrace healing and break free from the negative stigma surrounding sexual abuse.",
+      "links": [
+        {
+          "icon": "fab fa-instagram",
+          "url": "https://www.instagram.com/markgodoyjr/"
+        },
+        {
+          "icon": "fas fa-globe",
+          "url": "https://www.markgodoyjr.com"
+        }
+      ]
+    },
+    {
+      "name": "Ted Gonzaga",
+      "shortName": "Ted",
+      "headshot": "ted.jpg",
+      "bio": "Ted grew up and achieved his childhood dream of being an airline pilot and volunteers in various non-profit organizations in his free time. Ted is a survivor of sexual assault/abuse from within his family. He shares his story to hopefully show fellow survivors you are not alone and can be okay.",
+      "links": []
+    },
+    {
+      "name": "Adam Hawkins",
+      "shortName": "Adam",
+      "headshot": "adam.jpg",
+      "bio": "",
+      "links": []
+    },
+    {
+      "name": "Ben Holman",
+      "shortName": "Ben",
+      "headshot": "ben.jpg",
+      "bio": "Ben Holman is an investigator for cps, a member of the RAINN Speakers Bureau, and a survivor of sexual abuse. He hopes to use his story to help other men find hope and victory over their own stories.",
+      "links": []
+    },
+    {
+      "name": "Jordan Masciangelo",
+      "shortName": "Jordan",
+      "headshot": "jordan.jpg",
+      "bio": "By focusing on healing and community, Jordan has spent the past 12 years successfully transforming his own experiences of sexual violence and trafficking into powerful inspiration and advocacy for other male survivors as well as trauma-informed speaking engagements, training, and consulting services. ",
+      "links": []
+    },
+    {
+      "name": "Anthony Rivers",
+      "shortName": "Anthony",
+      "headshot": "anthony.jpg",
+      "bio": "Through support and resilience, Anthony has overcome numerous life challenges and now uses his experiences to inspire others as a public speaker, inclusion consultant, and mental health advocate.",
+      "links": [
+        {
+          "icon": "fab fa-linkedin",
+          "url": "https://www.linkedin.com/in/anthonyrivers503/"
+        },
+        {
+          "icon": "fab fa-youtube",
+          "url": "https://www.youtube.com/@Cloudnhyne"
+        }
+      ]
+    },
+    {
+      "name": "Shawn Wildermuth",
+      "shortName": "Shawn",
+      "headshot": "shawn.jpg",
+      "bio": "Shawn is a filmmaker who makes very personal documentaries. He knew that he wanted to tell the story of his shared experience of childhood sexual abuse. `Man Enough to Heal` is the culmination of that goal.",
+      "links": [
+        {
+          "icon": "fab fa-twitter",
+          "url": "https://twitter.com/@shawnwildermuth"
+        },
+        {
+          "icon": "fab fa-youtube",
+          "url": "https://youtube.com/c/swildermuth"
+        },
+        {
+          "icon": "fas fa-globe",
+          "url": "https://wildermuth.com"
+        }
+      ]
+    },
+    {
+      "name": "Thom Young",
+      "shortName": "Mark",
+      "headshot": "thom.jpg",
+      "bio": "Thom retired from a long career in long enforcement and a second career as an airline pilot. He now enjoys volunteering at various non-profit organizations and his church in retirement. Thom is a also survivor or sexual assault. He hopes sharing his story will offer help and hope to other victims of abuse.",
+      "links": []
+    }
+  ],
+  "also": [
+    {
+      "name": "Howard Fradkin, Ph.D.",
+      "bio": "Howard has LICDC has counseled over 1000 male survivors in individual, couples, group psychotherapy and weekend workshops over the course of his 39-year career as a Psychologist.",
+      "title": "Facilitator Emeritus, MenHealing.org",
+      "headshot": "howardfradkin.jpg",
+      "links": [
+        {
+          "icon": "fab fa-twitter",
+          "url": "https://twitter.com/@DrHFradkin"
+        },
+        {
+          "icon": "fas fa-globe",
+          "url": "https://malesurvivor.org/"
+        }
+      ]
+    },
+    {
+      "name": "Mike Lew, M.Ed.",
+      "bio": "Mike is director of The Next Step Counseling and Training Centre. Mike Lew has worked with thousands of men and women in their healing from the effects of sexual child abuse, rape, physical violence, emotional abuse and neglect.",
+      "title": "The Next Step Counseling and Training",
+      "headshot": "mikelew.jpg",
+      "links": [
+        {
+          "icon": "fas fa-globe",
+          "url": "https://nextstepcounseling.org/"
+        }
+      ]
+    }
+  ]
+}
