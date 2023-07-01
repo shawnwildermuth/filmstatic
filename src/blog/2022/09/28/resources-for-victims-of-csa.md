@@ -16,7 +16,7 @@ tags:
 ---
 As I've worked on "Don't Worry, I'm Fine", I found a ton of great resources for men and women who are dealing with childhood sexual abuse. Not every resource is for everyone, but I thought I'd list some of the organizations that I admire:
 
-- [1 in 6](http://www.1in6.org/Home/tabid/36/Default.aspx)
+- [1 in 6](http://www.1in6.org/)
 This website has a 24 hour chat line to help survivors in crisis as well as a weekly group chat that can be very helpful. The website name comes from the statistic: "At least 1 in 6 men have been sexually abused or assaulted". 
 
 - [Rape, Abuse & Incest National Network (RAINN)](http://www.rainn.org/)
