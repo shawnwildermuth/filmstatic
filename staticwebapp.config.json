@@ -1,0 +1,16 @@
+{
+  "responseOverrides": {
+    "400": {
+      "rewrite": "/error"
+    },
+    "403": {
+      "rewrite": "//error"
+    },
+    "404": {
+      "rewrite": "/404"
+    },
+    "500": {
+      "rewrite": "//error"
+    }
+  }
+}
