@@ -117,5 +117,19 @@
         }
       ]
     }
+  ],
+  "partners": [
+    {
+      "name": "MaleSurvivor",
+      "logo": "malesurvivor-wide.webp",
+      "link": "https://malesurvivor.org/",
+      "blurb": "MaleSurvivor provides a community for survivors including a really useful forum to discuss a variety of subjects important to men recovering from childhood sexual abuse."
+    },
+    {
+      "name": "moMENtum",
+      "logo": "momentum.png",
+      "link": "https://www.momentumdevon.org.uk/",
+      "blurb": "Momentum is a peer support group for adult male survivors of childhood sexual abuse."
+    }
   ]
 }

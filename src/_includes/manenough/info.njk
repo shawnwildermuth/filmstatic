@@ -74,13 +74,17 @@
               </div>
               <div class="single t-mb-8">
                 <h4>Presented in Partnership with:</h4>
-                <div>
-                  <a href="https://malesurvivor.org/" target="_blank"><img src="/img/manenough/partners/malesurvivor.jpg" alt="MaleSurvivor Logo" class="t-w-[125px] t-mb-4"></a>
+                <div class="t-flex t-flex-col t-justify-center t-w-full">
+                  {% for partner in manenough.partners %}
+                    <div class="t-self-center">
+                      <a href="{{ partner.url }}" target="_blank"><img src="/img/manenough/partners/{{ partner.logo }}" alt="{{ partner.name }} Logo" class="t-max-w-[155px] t-mb-4"></a>
+                    </div>
+                  {% endfor %}
                 </div>
               </div>
 
               <div class="single t-mb-8">
-                <h5 class="t-text-orange-600">
+                <h5 class="t-text-orange-600 t-text-center">
                   <a href="/dls/manenough-one-pager.pdf">Download More Information</a>
                 </h5>
               </div>

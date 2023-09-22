@@ -1,21 +1,22 @@
-  <h3>Presented in Partnership with:</h3>
+<h3>Presented in Partnership with:</h3>
 <div class="row">
-  <div class="col-lg-6 mb-50">
-    <div class="feature--block--h3 d-flex">
-      <div class="feature--icon--h3">
-        <i>
-          <a href="https://malesurvivor.org/">
-            <img src="/img/imfine/orgs/malesurvivor.jpg" alt="MaleSurvivor" class="t-w-20 t-min-w-[5rem]"/>
-          </a>
-        </i>
-      </div>
-      <div class="feature--text--h3">
-        <h4 class="feature--title t-text-orange-400">
-          <a href="https://malesurvivor.org/">MaleSurvivor</a>
-        </h4>
-        <p class="feature--text t-text-gray-400">MaleSurvivor provides a community for survivors including a really useful forum to discuss a variety of subjects important to men recovering from childhood sexual abuse.</p>
-        <a class="read--more" href="https://malesurvivor.org/for-survivors/">Join the Forum</a>
+  {% for partner in manenough.partners %}
+    <div class="col-lg-6 mb-50">
+      <div class="feature--block--h3 d-flex">
+        <div class="feature--icon--h3">
+          <i>
+            <a href="{{ partner.link}}">
+              <img src="/img/manenough/partners/{{ partner.logo }}" alt="{{ partner.name }}" class="t-w-20 t-min-w-[5rem]"/>
+            </a>
+          </i>
+        </div>
+        <div class="feature--text--h3">
+          <h4 class="feature--title t-text-orange-400">
+            <a href="{{ partner.link}}">{{ partner.name }}</a>
+          </h4>
+          <p class="feature--text t-text-gray-400">{{ partner.blurb }}</p>
+        </div>
       </div>
     </div>
-  </div>
+  {% endfor %}
 </div>
