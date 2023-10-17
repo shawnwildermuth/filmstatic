@@ -4,8 +4,8 @@
     "filmstatic": {
       "appLocation": ".",
       "outputLocation": "_site",
-      "appBuildCommand": "npm run build",
-      "run": "npm run dev",
+      "appBuildCommand": "eleventy",
+      "run": "eleventy --serve",
       "appDevserverUrl": "http://localhost:8080"
     }
   }
