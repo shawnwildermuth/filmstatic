@@ -2,11 +2,25 @@ const datefns = require("date-fns");
 const { format } = require("date-fns");
 const utcToZonedTime = require("date-fns-tz").utcToZonedTime;
 
+const currency = new Intl.NumberFormat('en-US', {
+  style: 'currency',
+  currency: 'USD',
+});
+
 module.exports = {
   format: datefns.format,
   formatISO: datefns.formatISO,
+  formatCurrency: (val) => {
+    return currency.format(val);
+  },
   formatDate: (data, fmt) => {
     return format(utcToZonedTime(data, "UTC"), "MMMM d, yyyy");
+  },
+  dateIsPast: (data) => {
+    return (new Date(data)) < (new Date());
+  },
+  dateIsFuture: (data) => {
+    return (new Date(data)) >= (new Date());
   },
   take: (data, num) => {
     if (data instanceof Array) {

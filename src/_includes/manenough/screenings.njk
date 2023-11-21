@@ -1,0 +1,49 @@
+<!-- Core Feature -->
+<a name="support"></a>
+<section class="feature border-bottom pt-125 pb-65 position-relative t-bg-slate-900 t-text-white">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 text-center mb-60">
+        <div class="section-title">
+          <span class="theme-color fw-700 text-uppercase">See the film!</span>
+          <h2 class="t-text-white">Screenings</h2>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      {% for screening in manenough.screenings %}
+        <div class="col-lg-12 mb-50">
+          <div class="feature--block--h3 d-flex md:t-mx-24">
+            <div class="feature--icon--h3">
+              <i>
+                <a href="{{ screening.link }}">
+                  <img src="{{ screening.logo }}" alt="{{ screening.name }}" class="t-w-28 t-min-w-[5rem]"/>
+                </a>
+              </i>
+            </div>
+            <div class="feature--text--h3">
+              <h4 class="feature--title t-text-orange-400">
+                <a href="{{ screening.link }}">{{ screening.name }}</a>
+              </h4>
+              <p class="feature--text t-mb-0">{{ screening.date | formatDate }}
+                {% if screening.time %}
+              @ {{ screening.time }}
+                {% endif %}
+              </p>
+              <p class="feature--text t-mb-0">Screening at {{ screening.location }}</p>
+              {% if screening.ticketPrice %}
+                <p class="feature--text">Tickets {{ screening.ticketPrice | formatCurrency }}</p>
+              {% endif %}
+              <p class="feature--text t-text-white">{{ screening.description }}</p>
+              {% if screening.date | dateIsFuture %}
+                <a class="read--more t-text-gray-400 hover:t-text-gray-50" href="{{ screening.link }}">Get Tickets</a>
+              {% endif %}
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+
+    </div>
+  </div>
+</section>
+<!-- Core Feature End -->
