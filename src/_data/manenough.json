@@ -134,6 +134,16 @@
   ],
   "screenings": [
     {
+      "name": "One Night Only in Boston (Cambridge), MA",
+      "logo": "/img/manenough/landmark.webp",
+      "link": "https://manenoughl.ink/boston-2024",
+      "description": "We're having a one-night-only screening of the film.",
+      "date": "2024-02-05",
+      "time": "7:00 pm",
+      "location": "Cambridge, MA",
+      "ticketPrice": 15.50
+    },
+    {
       "name": "Peachtree Village International Film Festival",
       "logo": "/img/manenough/festivals/PVIFF.webp",
       "link": "https://manenoughl.ink/ptv-tix",
