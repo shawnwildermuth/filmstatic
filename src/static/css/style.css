@@ -6093,7 +6093,7 @@ input.main-search-input:-ms-input-placeholder {
 }
 
 .team--block:hover .team--thumb--h2 img {
-  transform: scale(1.1) rotate(5deg);
+  transform: scale(1.05) rotate(1deg);
   -webkit-transition: all 0.4s ease-out 0s;
   -moz-transition: all 0.4s ease-out 0s;
   -ms-transition: all 0.4s ease-out 0s;
