@@ -1,0 +1,181 @@
+<!-- Team -->
+<a name="media"></a>
+<section class="team border-bottom pt-125 pb-95 t-bg-slate-200">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-5 mb-55">
+        <div class="section-title">
+          <span class="theme-color fw-700 text-uppercase">media appearances</span>
+          <h2>sharing our story</h2>
+          <p class="mb-25">I've been asked to be on different podcasts and shows to talk about the film. Take a look at some of the interviews:</p>
+          <a href="mailto:shawn@wildermuth.com?subject=Media Request" class="btn btn--theme t-bg-orange-700">media requests</a>
+        </div>
+      </div>
+      <div class="col-lg-6 offset-lg-1 col-md-10">
+        <div class="row">
+          {% for interview in manenough.media %}
+            <div class="col-lg-6 col-md-6 mb-30">
+              <a href="{{ interview.url }}">
+                <div class="team--block position-relative">
+                  <div class="team--thumb--h2 position-relative">
+                    <img src="{{ interview.logo }}" alt="{{ interview.outlet }}">
+
+                  </div>
+                  <div class="team--content--h2 text-center pt-25">
+                    <div class="team--info">
+                      <span class="fw-600 text-uppercase theme-color">{{ interview.outlet }}</span>
+                      <h5 class="t-mt-2">{{ interview.title }}<br/>{{ interview.date }}</h5>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+    {# <div class="row">
+      <div class="col-lg-3 col-md-5 mb-30">
+        <div class="team--block position-relative">
+          <div class="team--thumb--h2 position-relative">
+            <img src="assets/img/team/team-thumb-7.jpg" alt="">
+            <div class="social--add">
+              <i class="fal fa-plus"></i>
+              <div class="team--social--h2">
+                <ul>
+                  <li>
+                    <a href="#">
+                      <i class="fab fa-instagram"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i class="fab fa-twitter"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i class="fab fa-facebook-f"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="team--content--h2 text-center pt-25">
+            <div class="team--info">
+              <h5>George C. Griffin xeom</h5>
+              <span class="fw-600 text-uppercase theme-color">film director</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-5 mb-30">
+        <div class="team--block position-relative">
+          <div class="team--thumb--h2 position-relative">
+            <img src="assets/img/team/team-thumb-8.jpg" alt="">
+            <div class="social--add">
+              <i class="fal fa-plus"></i>
+              <div class="team--social--h2">
+                <ul>
+                  <li>
+                    <a href="#">
+                      <i class="fab fa-instagram"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i class="fab fa-twitter"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i class="fab fa-facebook-f"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="team--content--h2 text-center pt-25">
+            <div class="team--info">
+              <h5>doe Andrew S. Barton</h5>
+              <span class="fw-600 text-uppercase theme-color">film director</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-5 mb-30">
+        <div class="team--block position-relative">
+          <div class="team--thumb--h2 position-relative">
+            <img src="assets/img/team/team-thumb-9.jpg" alt="">
+            <div class="social--add">
+              <i class="fal fa-plus"></i>
+              <div class="team--social--h2">
+                <ul>
+                  <li>
+                    <a href="#">
+                      <i class="fab fa-instagram"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i class="fab fa-twitter"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i class="fab fa-facebook-f"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="team--content--h2 text-center pt-25">
+            <div class="team--info">
+              <h5>michel d. Frank T. Barton</h5>
+              <span class="fw-600 text-uppercase theme-color">film director</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-5 mb-30">
+        <div class="team--block position-relative">
+          <div class="team--thumb--h2 position-relative">
+            <img src="assets/img/team/team-thumb-10.jpg" alt="">
+            <div class="social--add">
+              <i class="fal fa-plus"></i>
+              <div class="team--social--h2">
+                <ul>
+                  <li>
+                    <a href="#">
+                      <i class="fab fa-instagram"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i class="fab fa-twitter"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i class="fab fa-facebook-f"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="team--content--h2 text-center pt-25">
+            <div class="team--info">
+              <h5>Samuel L. Gibson medis</h5>
+              <span class="fw-600 text-uppercase theme-color">film director</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> #}
+  </div>
+</section>
+<!-- Team End -->

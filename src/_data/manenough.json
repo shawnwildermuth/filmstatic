@@ -173,5 +173,14 @@
       "location": "Columbia, SC",
       "ticketPrice": 0
     }
+  ],
+  "media": [
+    {
+      "title": "Shawn Wildermuth Interview (S4E17)",
+      "url": "https://play.pocketcasts.com/web/user/share?podcast=a1db22c0-5341-013a-d6df-0acc26574db2&episode=4bba289c-c34a-4dda-8326-24b4b815ea76&t=0",
+      "outlet": "Handing the Shame Back",
+      "date": "2023-08-24",
+      "logo": "/img/manenough/media/handing-the-shame-back.jpg"
+    }
   ]
 }
