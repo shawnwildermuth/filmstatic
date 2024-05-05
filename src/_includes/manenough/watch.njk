@@ -1,0 +1,45 @@
+{% macro platformWidget(platform) %}
+  {% include "manenough/_platform-widget.njk" %}
+{% endmacro %}
+
+<a name="watch"></a>
+<section class="faq t-pt-16 t-pb-8 t-bg-slate-300">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 mb-30">
+        <h2>How To Watch</h2>
+        <p class="t-text-orange-600 t-text-2xl">Coming Soon!</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="faq-wrapper">
+          <div class="accordion">
+            <div class="card">
+              <!-- ondemand -->
+              <div class="card-header" id="headingTwo">
+                <h5 class="mb-0">
+                  <a href="javascript:void" onclick="" class="btn-link">
+                    <i class="fas fa-angle-down"></i>
+                                                OnDemand
+                                            </a>
+                </h5>
+              </div>
+              <div >
+                <div class="card-body">
+                  <div class="card-text">
+                    <div class="row">
+                      {% for item in filmplatforms.manenough.ondemand %}
+                        {{ platformWidget(item) }}
+                      {% endfor %}
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
