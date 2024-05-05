@@ -1,0 +1,9 @@
+<div class="hover:t-rotate-3 t-duration-100 hover:t-scale-105 t-transform col-12 col-sm-4 col-md-3 col-xl-2">
+  {% if (platform.url) %}
+    <a href="{{ platform.url}}">
+    {% endif %}
+    <img class="t-rounded t-my-16 sm:t-m-0" src="{{platform.img}}" alt="{{ platform.name }}"/>
+    {% if (platform.url) %}
+    </a>
+  {% endif %}
+</div>
