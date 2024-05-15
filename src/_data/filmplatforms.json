@@ -523,23 +523,36 @@
       ]
     }
   },
-  "manenough": {
-    "ondemand": [
+  "manenough": [
       {
         "name": "iTunes",
         "url": "",
-        "img": "/img/hwfilm/platforms/TVOD/itunes-png.png"
+        "img": "/img/imfine/platforms/itunes-preorder.png",
+        "releaseDate": "5/31/2024"
+      },
+      {
+        "name": "Google Play",
+        "url": "",
+        "img": "/img/imfine/platforms/google-play.png",
+        "releaseDate": "5/31/2024"
       },
       {
         "name": "Prime Video",
         "url": "",
-        "img": "/img/hwfilm/platforms/TVOD/Prime_Video.png"
+        "img": "/img/imfine/platforms/Prime_Video.png",
+        "releaseDate": "5/31/2024"
       },
       {
         "name": "YouTube",
         "url": "",
-        "img": "/img/hwfilm/platforms/TVOD/youtube-png.png"
+        "img": "/img/imfine/platforms/youtube-png.png",
+        "releaseDate": "5/31/2024"
+      },
+      {
+        "name": "Tubi",
+        "url": "",
+        "img": "/img/imfine/platforms/Tubitv.jpg",
+        "releaseDate": "7/1/2024"
       }
     ]
-  }
 }

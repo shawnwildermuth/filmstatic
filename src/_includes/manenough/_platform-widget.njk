@@ -2,8 +2,11 @@
   {% if (platform.url) %}
     <a href="{{ platform.url}}">
     {% endif %}
-    <img class="t-rounded t-my-16 sm:t-m-0" src="{{platform.img}}" alt="{{ platform.name }}"/>
+    <img class="t-rounded t-mt-0" src="{{platform.img}}" alt="{{ platform.name }}"/>
     {% if (platform.url) %}
     </a>
+  {% endif %}
+  {% if (platform.releaseDate) %}
+  <div class="t-text-center sm:t-text-xs  t-text-sm t-mb-2 t-text-slate-500 mt-1">Coming {{ platform.releaseDate }}</div>
   {% endif %}
 </div>

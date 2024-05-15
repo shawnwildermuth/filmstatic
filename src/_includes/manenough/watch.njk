@@ -16,20 +16,11 @@
         <div class="faq-wrapper">
           <div class="accordion">
             <div class="card">
-              <!-- ondemand -->
-              <div class="card-header" id="headingTwo">
-                <h5 class="mb-0">
-                  <a href="javascript:void" onclick="" class="btn-link">
-                    <i class="fas fa-angle-down"></i>
-                                                OnDemand
-                                            </a>
-                </h5>
-              </div>
               <div >
                 <div class="card-body">
                   <div class="card-text">
                     <div class="row">
-                      {% for item in filmplatforms.manenough.ondemand %}
+                      {% for item in filmplatforms.manenough %}
                         {{ platformWidget(item) }}
                       {% endfor %}
                     </div>
