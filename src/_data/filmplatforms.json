@@ -526,13 +526,13 @@
   "manenough": [
       {
         "name": "iTunes",
-        "url": "",
+        "url": "https://itunes.apple.com/us/movie/man-enough-to-heal/id1743083018",
         "img": "/img/imfine/platforms/itunes-preorder.png",
         "releaseDate": "5/31/2024"
       },
       {
         "name": "Google Play",
-        "url": "",
+        "url": "https://play.google.com/store/movies/details?id=eVTHIrPRhDs.P",
         "img": "/img/imfine/platforms/google-play.png",
         "releaseDate": "5/31/2024"
       },
