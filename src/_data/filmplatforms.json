@@ -527,32 +527,32 @@
       {
         "name": "iTunes",
         "url": "https://itunes.apple.com/us/movie/man-enough-to-heal/id1743083018",
-        "img": "/img/imfine/platforms/itunes-preorder.png",
-        "releaseDate": "5/31/2024"
+        "img": "/img/manenough/platforms/itunes-preorder.png",
+        "releaseDate": "Now Available!"
       },
       {
         "name": "Google Play",
-        "url": "https://play.google.com/store/movies/details?id=eVTHIrPRhDs.P",
-        "img": "/img/imfine/platforms/google-play.png",
-        "releaseDate": "5/31/2024"
+        "url": "https://play.google.com/store/movies/details?id=eVTHIrPRhDs.P&sticky_source_country=US&gl=US&hl=en",
+        "img": "/img/manenough/platforms/google-play.png",
+        "releaseDate": "Now Available!"
       },
       {
         "name": "Prime Video",
         "url": "",
-        "img": "/img/imfine/platforms/Prime_Video.png",
-        "releaseDate": "5/31/2024"
+        "img": "/img/manenough/platforms/Prime_Video.png",
+        "releaseDate": "Coming Soon!"
       },
       {
-        "name": "YouTube",
+        "name": "Vimeo",
         "url": "",
-        "img": "/img/imfine/platforms/youtube-png.png",
-        "releaseDate": "5/31/2024"
+        "img": "/img/manenough/platforms/vimeo.png",
+        "releaseDate": "Coming Soon!"
       },
       {
         "name": "Tubi",
         "url": "",
-        "img": "/img/imfine/platforms/Tubi.png",
-        "releaseDate": "7/1/2024"
+        "img": "/img/manenough/platforms/Tubi.png",
+        "releaseDate": "Available 7/1/2024"
       }
     ]
 }
