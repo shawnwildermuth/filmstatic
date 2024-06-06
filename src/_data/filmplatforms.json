@@ -543,6 +543,12 @@
         "releaseDate": "Coming Soon!"
       },
       {
+        "name": "YouTube",
+        "url": "https://www.youtube.com/watch?v=lIL0I7GSQy8&ab_channel=YouTubeMovies",
+        "img": "/img/manenough/platforms/youtube.png",
+        "releaseDate": "Now Available!"
+      },
+      {
         "name": "Vimeo",
         "url": "https://twainfilms.vhx.tv/",
         "img": "/img/manenough/platforms/vimeo.png",
