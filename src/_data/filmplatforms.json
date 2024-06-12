@@ -528,31 +528,31 @@
         "name": "iTunes",
         "url": "https://itunes.apple.com/us/movie/man-enough-to-heal/id1743083018",
         "img": "/img/manenough/platforms/itunes-preorder.png",
-        "releaseDate": "Now Available!"
+        "releaseDate": ""
       },
       {
         "name": "Google Play",
         "url": "https://play.google.com/store/movies/details?id=eVTHIrPRhDs.P&sticky_source_country=US&gl=US&hl=en",
         "img": "/img/manenough/platforms/google-play.png",
-        "releaseDate": "Now Available!"
+        "releaseDate": ""
       },
       {
         "name": "Prime Video",
-        "url": "",
+        "url": "https://amzn.to/4enzXgO",
         "img": "/img/manenough/platforms/Prime_Video.png",
-        "releaseDate": "Coming Soon!"
+        "releaseDate": ""
       },
       {
         "name": "YouTube",
         "url": "https://www.youtube.com/watch?v=lIL0I7GSQy8&ab_channel=YouTubeMovies",
         "img": "/img/manenough/platforms/youtube.png",
-        "releaseDate": "Now Available!"
+        "releaseDate": ""
       },
       {
         "name": "Vimeo",
         "url": "https://twainfilms.vhx.tv/",
         "img": "/img/manenough/platforms/vimeo.png",
-        "releaseDate": "Now Available!"
+        "releaseDate": ""
       },
       {
         "name": "Tubi",
