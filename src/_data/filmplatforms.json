@@ -524,41 +524,47 @@
     }
   },
   "manenough": [
-      {
-        "name": "iTunes",
-        "url": "https://itunes.apple.com/us/movie/man-enough-to-heal/id1743083018",
-        "img": "/img/manenough/platforms/itunes-preorder.png",
-        "releaseDate": ""
-      },
-      {
-        "name": "Google Play",
-        "url": "https://play.google.com/store/movies/details?id=eVTHIrPRhDs.P&sticky_source_country=US&gl=US&hl=en",
-        "img": "/img/manenough/platforms/google-play.png",
-        "releaseDate": ""
-      },
-      {
-        "name": "Prime Video",
-        "url": "https://amzn.to/4enzXgO",
-        "img": "/img/manenough/platforms/Prime_Video.png",
-        "releaseDate": ""
-      },
-      {
-        "name": "YouTube",
-        "url": "https://www.youtube.com/watch?v=lIL0I7GSQy8&ab_channel=YouTubeMovies",
-        "img": "/img/manenough/platforms/youtube.png",
-        "releaseDate": ""
-      },
-      {
-        "name": "Vimeo",
-        "url": "https://twainfilms.vhx.tv/",
-        "img": "/img/manenough/platforms/vimeo.png",
-        "releaseDate": ""
-      },
-      {
-        "name": "Tubi",
-        "url": "",
-        "img": "/img/manenough/platforms/Tubi.png",
-        "releaseDate": "Available 7/1/2024"
-      }
-    ]
+    {
+      "name": "Apple TV",
+      "url": "https://manenoughl.ink/appletv",
+      "img": "/img/manenough/platforms/apple-tv.png",
+      "releaseDate": ""
+    },
+    {
+      "name": "Prime Video",
+      "url": "https://manenoughl.ink/prime",
+      "img": "/img/manenough/platforms/Prime_Video.png",
+      "releaseDate": ""
+    },
+    {
+      "name": "Google Play",
+      "url": "https://manenoughl.ink/googleplay",
+      "img": "/img/manenough/platforms/google-play.png",
+      "releaseDate": ""
+    },
+    {
+      "name": "iTunes",
+      "url": "https://manenoughl.ink/itunes",
+      "img": "/img/manenough/platforms/itunes.png",
+      "releaseDate": ""
+    },
+    {
+      "name": "YouTube",
+      "url": "https://manenoughl.ink/youtube",
+      "img": "/img/manenough/platforms/youtube.png",
+      "releaseDate": ""
+    },
+    {
+      "name": "Vimeo",
+      "url": "https://manenoughl.ink/vimeo",
+      "img": "/img/manenough/platforms/vimeo.png",
+      "releaseDate": ""
+    },
+    {
+      "name": "Tubi",
+      "url": "",
+      "img": "/img/manenough/platforms/Tubi.png",
+      "releaseDate": "Available 7/1/2024"
+    }
+  ]
 }
